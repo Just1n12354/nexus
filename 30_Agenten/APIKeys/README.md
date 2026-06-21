@@ -15,6 +15,7 @@ Sammelstelle für API-Keys / Bearer-Tokens, die der nexus-Vault braucht.
 ## Inhalt
 - `BraveAPI.txt` — Brave Search API
 - `Telegram.txt` — Telegram (vgl. Ping-Bot `@pingitintechbot`)
+- `Telegram-Ben.txt` — Telegram-Bot für den Agenten Ben (siehe `30_Agenten/Ben/`)
 
 ## Verweise
 - Weitere Keys außerhalb nexus: Mac mini `~/LocalSecure/Keys/`, PC `C:\Users\jitin\LocalSecure\Keys\`.
