@@ -3,7 +3,7 @@
 title: Hardware
 type: reference
 status: aktiv
-updated: 2026-06-20
+updated: 2026-06-22
 description: "Hardware-Inventar: Geräte, Hostnames, Tailscale-IPs, OS, Rollen, Detail-Specs, Rack-Planung, Mac mini Hermes/Codex, NAS, PCs, Smartphones und Spezial-Setups."
 aliases: [hardware, geräte, devices, devices-specs, hardware-inventar]
 tags: [infra/hardware, infra/network, tailscale, specs, llm-local, ai-agents]
@@ -409,11 +409,12 @@ Rolle:
 
 # Rack / Mini-Server-Setup
 
-## Geplante Rack-Geräte
+## Aktueller Rack-Inhalt
 
-Diese Geräte gehören zur aktuellen Mini-Server-/AI-Rack-Planung:
+Das Rack ist gebaut. Aktuell gehören diese Geräte zum Mini-Server-/NAS-/AI-Rack-Setup:
 
 * ASUS Ascent GX10 / GB10
+* Netgear GS105GE Switch
 * Mac mini M4
 * Synology DS923+
 * APC Back-UPS Pro 650 / BR650MI
@@ -423,6 +424,7 @@ Diese Geräte gehören zur aktuellen Mini-Server-/AI-Rack-Planung:
 Rolle:
 
 * USV für Mini-Server-/NAS-/AI-Rack
+* im aktuellen Setup nur über das NAS eingebunden
 
 Masse:
 
@@ -443,7 +445,7 @@ Planungsregel:
 * USV separat unter/neben Rack platzieren
 * oder Custom-Rack / offenes Regal bauen
 
-## Rack-Planungsregel
+## Rack-Status / Bauprinzip
 
 Maximale Breite:
 
@@ -457,9 +459,9 @@ Ziel:
 
 * kompaktes, sauberes All-in-One-Mini-Server-/NAS-/USV-/AI-Rack
 
-Tendenz:
+Status:
 
-* Custom-Mini-Rack selbst bauen
+* Custom-Mini-Rack ist umgesetzt
 
 Grund:
 
