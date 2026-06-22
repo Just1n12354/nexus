@@ -216,6 +216,15 @@ Gewicht:
 
 * 2.24 kg
 
+Dauerhafter Mount Mac mini (Justinmacmini, eingerichtet 22.06.2026):
+
+* Mountpunkt: `~/JustNAS` (Freigabe `JustNas`, via Tailscale-IP `100.122.172.62`)
+* SMB-User: `AdminNas` — **Passwort im macOS-Login-Schlüsselbund** (Item „JustNAS (AdminNas)", Server 100.122.172.62, Protokoll smb). NICHT im Klartext/Git.
+* Mount-Skript: `~/.config/justnas/mount-justnas.sh` (holt PW aus Keychain, mountet wenn NAS erreichbar)
+* Auto-Mount: LaunchAgent `~/Library/LaunchAgents/com.justin.justnas-mount.plist` (RunAtLoad + alle 5 min remount), Log `/tmp/justnas-mount.log`
+* Freigaben gesamt: web_packages, docker, M2JustNas (SSD), web, JustNas
+* `ollama/` auf dem NAS = 1.4 TB lokale LLM-Modelle (126 Ollama-Modelle, Stand 22.06.2026)
+
 Offen:
 
 * DSM-Pakete seit 11.04.2026 veraltet → prüfen
