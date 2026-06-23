@@ -4,7 +4,7 @@ nexus and Itin-TechSolutions are separate repos/namespaces; use live vault struc
 §
 Wo was liegt in nexus grob: persönliche Fakten unter 10_Personen/privat/, Systeme unter 50_Systeme/, Arbeit unter 70_Arbeit/, Robotik unter 80_Roboter/, Logs unter 00_Log/; Projekt-/Konzeptnotizen aktuell unter 20_Projekte Konzepte/. Für konkrete Pfade immer live nachsehen statt alte Strukturannahmen zu vertrauen.
 §
-JustReise (Quick-Fact): source /Users/imjustin/Documents/GitHub/Itin-TechSolutions/20_Projekte/10_Apps/Aktiv/JustReise; live runtime /Users/imjustin/JustReise via LaunchAgent com.itintechsolutions.justreise auf Port 8060 (http://justinmacmini.tail8b5081.ts.net:8060/); London-Livedaten nur unter data/london/; Runtime-Änderungen immer auch in src/ spiegeln (Details: arbeitsordner.md).
+JustReise (Quick-Fact): source /Users/imjustin/Documents/GitHub/Itin-TechSolutions/20_Projekte/10_Apps/Aktiv/JustReise; live runtime /Users/imjustin/JustReise via LaunchAgent com.itintechsolutions.justreise auf Port 8060 (http://macmini.tail8b5081.ts.net:8060/); London-Livedaten nur unter data/london/; Runtime-Änderungen immer auch in src/ spiegeln (Details: arbeitsordner.md).
 §
 nexus-Dateien können macOS File-Provider-Platzhalter sein → vor dem Lesen mit brctl download materialisieren, via fileproviderctl evaluate prüfen.
 §

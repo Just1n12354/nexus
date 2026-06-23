@@ -30,7 +30,7 @@ related: ["[[services-mac-mini]]", "[[storage-cloud]]", "[[security-status]]", "
 | ---------------- | ----------------: | ------- | ------------------------------------------------- |
 | `gx10-bf12`      |   `100.75.47.118` | Linux   | ASUS Ascent GX10 / GB10 / AI-Arbeitsgerät         |
 | `justingamingpc` |   `100.94.200.83` | Windows | Justin Gaming-PC / RTX 3090 / lokale KI-Toolchain |
-| `justinmacmini`  |    `100.89.217.4` | macOS   | Mac mini M4 / Server / Hermes mit Codex-Abo       |
+| `macmini`        |    `100.89.217.4` | macOS   | Mac mini M4 / Server / Hermes mit Codex-Abo       |
 | `justnas`        |  `100.122.172.62` | Linux   | Synology DS923+ / NAS / Datenablage               |
 | `justinmacairm4` |   `100.119.74.63` | macOS   | MacBook Air M4 / Entwicklung / CS50               |
 | `s24-von-justin` |    `100.99.130.6` | Android | Justin Smartphone                                 |
@@ -83,7 +83,7 @@ Wichtig:
 
 Hostname:
 
-* `justinmacmini`
+* `macmini`  *(umbenannt 23.06.2026, vorher `justinmacmini`)*
 
 Tailscale:
 
@@ -216,7 +216,7 @@ Gewicht:
 
 * 2.24 kg
 
-Dauerhafter Mount Mac mini (Justinmacmini, eingerichtet 22.06.2026):
+Dauerhafter Mount Mac mini (macmini, eingerichtet 22.06.2026):
 
 * Mountpunkt: `~/JustNAS` (Freigabe `JustNas`, via Tailscale-IP `100.122.172.62`)
 * SMB-User: `AdminNas` — **Passwort im macOS-Login-Schlüsselbund** (Item „JustNAS (AdminNas)", Server 100.122.172.62, Protokoll smb). NICHT im Klartext/Git.
