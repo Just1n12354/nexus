@@ -25,3 +25,5 @@ Earlier assumptions about root entrypoints like MASTER.md, TREE.md or MASTER_IND
 Default weather location for Justin/Luna is Diepflingen 4442, Switzerland, using Open-Meteo coordinates around 47.45, 7.84 unless a different place is specified.
 §
 JustinV2 exposes a REST API on localhost:8050 and Tailscale 100.89.217.4:8050; GET endpoints are open by default, while POST/PUT/DELETE require X-API-Key. The key should be kept only in the local non-git file ~/LocalSecure/Keys/justinv2_api_key.txt, not in git-backed notes or Hermes memory.
+§
+Ben-Reviews sollten streng zwischen Syntax, Semantik, Quellenqualität und Formulierungspräzision unterscheiden; gute Ben-Tests zwingen zu Live-Recherche (Wetter, Öffnungszeiten, CH-Preischecks, offizielle Doku) statt plausibler Improvisation.
