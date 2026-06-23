@@ -161,3 +161,114 @@ Zielzustand:
 - präziser
 - weniger gemischt
 - besser im sauberen Interpretieren von Live-Quellen und Doku.
+
+13) Konkrete Fälle von vorhin – mit Bewertung
+
+Fall A: Operativer-Agentsatz
+Ben-Version sinngemäss:
+- „Verstanden. Ich arbeite jetzt als operativer lokaler Agent – nutze Dateien, CLI-Tools, Web/Brave-Suche und Vision, speichere nur stabile Kerninformationen und liefere klare Ergebnisse ohne unnötige Rückfragen. Ready to act on deine nächsten Aufgaben."
+Bewertung:
+- Grundsätzlich gut, weil Ben die richtigen Bausteine nennt und operativ klingt.
+- Schwachpunkt ist fast nur der halbenglische Schluss.
+Bessere Version:
+- „Verstanden. Ich arbeite ab jetzt genau so.“
+- oder: „Passt — ich nutze das ab jetzt standardmässig.“
+Urteil:
+- gut, aber sprachlich nicht ganz sauber
+- ungefähr 8.5/10
+
+Fall B: Wetterkorrektur
+Ben-Version sinngemäss:
+- ca. 33 °C
+- gefühlt ca. 35 °C
+- 50 % Bewölkung
+- max. 33 °C
+Bewertung:
+- Die Kernaussage war brauchbar: Es ist deutlich heisser als vorher geschätzt.
+- Aber „50 % Bewölkung“ war zu präzise formuliert.
+- Und „max.“ war ohne sauberen Zeitbezug leicht missverständlich.
+Bessere Version:
+- „Kurzfazit: Stand ca. 13 Uhr liegt es bei 33 °C, gefühlt 35 °C, sonnig bis leicht bewölkt — also klar heisser als vorher geschätzt.“
+- „Temperatur: ca. 33 °C aktuell, Tageshoch etwa 33–34 °C“
+- „Wetter: überwiegend klar / leicht bewölkt“
+- „Wind: ca. 6 km/h aus Osten“
+Urteil:
+- inhaltlich brauchbar
+- sprachlich und meteorologisch noch präziser formulierbar
+
+Fall C: Hermes-Cronjob-Recherche
+Ben-Version sinngemäss:
+- /sethome zuerst setzen
+- dann Cronjob anlegen
+- Prompt wird als Nachricht gesendet
+Bewertung:
+- Er hat echte Doku und reale Syntax verwendet — das ist positiv.
+- Aber die Interpretation war an zwei Stellen zu grob.
+Kritische Punkte:
+- /sethome ist nicht pauschal zwingend.
+- Das zweite Argument bei `hermes cron create` ist ein Prompt bzw. eine Task-Instruktion, nicht automatisch ein harter „send exact text“-Mechanismus.
+Sauberere Version:
+- „Im Chat: /cron add \"0 8 * * *\" \"Reply with exactly this text: Guten Morgen – hier dein Tagesbericht.\"“
+- „Im Terminal: hermes cron create \"0 8 * * *\" \"Reply with exactly this text: Guten Morgen – hier dein Tagesbericht.\" --name morning-report“
+- „Optional: --deliver telegram, wenn die Ausgabe explizit an den Telegram-Home-Channel gehen soll“
+- „/sethome ist nur relevant, wenn du den Home-Channel explizit setzen willst“
+Urteil:
+- inhaltlich nicht halluziniert
+- aber semantisch nur etwa 7.5/10 sauber
+
+14) Was Ben schon gut gemacht hat
+- Er halluziniert nicht komplett frei, sondern landet oft in der Nähe der korrekten Antwort.
+- Er kann brauchbare Kurzbewertungen liefern.
+- Er scheint recherchierbar und grundsätzlich steuerbar.
+- Bei Doku-/Syntaxfragen findet er eher den richtigen Bereich als komplett Unsinn.
+
+15) Was ihn im Moment noch bremst
+- Er macht aus groben Informationen zu schnell glatte, etwas zu sichere Aussagen.
+- Er trennt nicht immer sauber zwischen:
+  - Rohdaten
+  - Interpretation
+  - Standardverhalten
+  - optionalem Verhalten
+- Er formuliert manchmal etwas „AI-clean“, aber noch nicht ganz menschlich-natürlich.
+- Er liefert teils richtige Teile, aber noch nicht immer die beste Endformulierung.
+
+16) Konkrete Schreibregeln für Ben
+- Normale Antworten auf Deutsch, sauber und ohne Mischsprache.
+- Erst das Urteil, dann 1–3 Gründe.
+- Keine Scheingenauigkeit.
+- Quellen nicht nur nennen, sondern einordnen.
+- Bei Doku nie nur kopieren; immer prüfen, was die Aussage praktisch bedeutet.
+- „zwingend“, „standardmässig“ und „optional“ nie vermischen.
+- Lieber kurz und präzise als leicht aufgebläht und halbunsauber.
+
+17) Gute Testarten für Ben
+Diese Testarten sind sinnvoll, weil er dabei googeln oder live nachsehen muss:
+- aktuelles Wetter mit Quelle
+- Öffnungszeiten eines Orts mit 2 Quellen
+- Preisvergleich Schweiz mit 3 Shops
+- offizielle Doku-Frage mit genauer Syntax
+- Screenshot + Vision + anschliessende Web-Recherche
+- Faktencheck einer Behauptung mit 2–3 verlässlichen Quellen
+
+18) Beispiel-Testprompts aus dem Chat
+- „Wie ist das aktuelle Wetter heute in Diepflingen um ca. 13 Uhr, inkl. Temperatur, Gefühlstemperatur, Wind und Bewölkung? Nenne auch die Quelle.“
+- „Finde in der Hermes-Dokumentation, wie Cronjobs erstellt werden, und gib mir den korrekten Weg mit einem kleinen Beispiel.“
+- „Such mir den aktuellen Preisbereich für [Produkt X] in der Schweiz und nenne 3 konkrete Quellen/Shops.“
+- „Welche Öffnungszeiten hat [Ort / Laden / Restaurant] heute wirklich? Bitte mit Quelle und Hinweis, falls es Abweichungen geben könnte.“
+- „Vergleiche 3 aktuelle Möglichkeiten, um lokale LLMs auf macOS zu betreiben. Nenne Vor- und Nachteile mit Quellen.“
+- „Hier ist ein Screenshot von [Fehler / Produkt / Ort]. Erkenne, worum es geht, und recherchiere dann die wahrscheinlich passende Lösung / Info mit Quellen.“
+
+19) Endfazit über Ben
+Ben ist nicht unbrauchbar — im Gegenteil.
+Er ist schon auf einem Level, auf dem man mit ihm arbeiten kann.
+Aber er ist aktuell noch eher:
+- brauchbar
+- teilweise gut
+- aber noch nicht konstant präzise
+
+Der Haupthebel ist nicht mehr „mehr Wissen“, sondern:
+- bessere sprachliche Sauberkeit
+- stärkere Quellen-Disziplin
+- bessere Einordnung von Doku und Live-Daten
+- weniger absolute Aussagen
+- mehr operative Klarheit in der Endformulierung
