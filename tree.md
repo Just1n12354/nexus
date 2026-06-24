@@ -4,13 +4,13 @@ aliases: [tree, file-structure, directory-tree]
 description: Vollständige Verzeichnisstruktur des Nexus Vault mit Dateibesprechungen.
 type: tree
 status: aktiv
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # Nexus — File Tree
 
-> Vollständige Verzeichnisstruktur des Nexus Vault (Stand 2026-06-24).
-> Quelle: `/home/justin/Dokumente/GitHub/nexus/`
+> Vollständige Verzeichnisstruktur des Nexus Vault (Stand 2026-06-25).
+> Quelle: `~/Documents/GitHub/nexus/`
 
 ```
 nexus/
@@ -49,21 +49,25 @@ nexus/
 │   │   ├── KW_22/LOG.md            # 2026, KW 22
 │   │   ├── KW_23/LOG.md            # 2026, KW 23
 │   │   ├── KW_24/LOG.md            # 2026, KW 24
-│   │   └── KW_25/LOG.md            # 2026, KW 25 (aktuelle)
+│   │   ├── KW_25/LOG.md            # 2026, KW 25
+│   │   └── KW_26/LOG.md            # 2026, KW 26 (aktuelle)
 │   └── README.md                   # Log-Topologie, Eintrags-Muster, Workflow
 │
 ├── 10_Personen/                    # Personen-Profile
-│   ├── privat/
-│   │   ├── justin.md               # Justin Itin — IT-Einzelunternehmer
-│   │   └── sarah.md                # Sarah — Partnerin
+│   └── privat/
+│       ├── justin.md               # Justin Itin — IT-Einzelunternehmer
+│       └── sarah.md                # Sarah — Partnerin
 │
 ├── 20_Projekte Konzepte/           # Projekt-Portfolio
 │   ├── INDEX.md                    # Portfolio-Übersicht (alle Projekte)
-│   ├── aieyes.md                   # Augen+Hände für KI (Screenshot + Maus/Tastatur)
 │   ├── ai-fight-club.md            # Liga-Arena: ~95 Ollama-Modelle, 15 Challenges
+│   ├── aieyes.md                   # Augen+Hände für KI (Screenshot + Maus/Tastatur)
+│   ├── aiworld.md                  # Bot-Orchestrierung (Friedhof)
+│   ├── atlas.md                    # Wissenskartierung
 │   ├── claudesync.md               # Single Source für Claude-Code-Config
 │   ├── jarvis.md                   # Lokaler Sprach-/Aktions-Assistent
 │   ├── justbetter.md               # KI-Coach (Konzept)
+│   ├── justdaybook.md              # Flask-Tagebuch (archiviert)
 │   ├── justfinancebusiness.md      # Buchhaltung Itin TechSolutions (Port 8010)
 │   ├── justfinanceprivate.md       # Private Finanzen (Port 8020)
 │   ├── justlauncher.md             # Dashboard für alle Just-Dienste (Port 8000)
@@ -72,9 +76,12 @@ nexus/
 │   ├── justtodo.md                 # Datei-basierte Todo-App (Port 8030)
 │   ├── justupdate.md               # Windows-Wartungs-Tool + Self-Update
 │   ├── justwebsite.md              # Statische Firmen-Website (Netlify)
+│   ├── nexus.md                    # Haupt-Projekt: Nexus Vault
+│   ├── projectfusion.md            # Projekt-Standard V5
 │   ├── projectnorm.md              # Projekt-Standard (README = Single Source)
 │   ├── sherlock-holmes.md          # Recherche-Agent (GitHub/Reddit)
-│   └── swissaisolutions.md         # Plug-&-Play KI-Box für KMU (MRR)
+│   ├── swissaisolutions.md         # Plug-&-Play KI-Box für KMU (MRR)
+│   └── watson.md                   # Git-History-Tool (Conventional Commits)
 │
 ├── 30_Agenten/                     # KI-Agenten
 │   ├── APIKeys/                    # API-Keys (bewusst im privaten Repo committed)
@@ -83,6 +90,8 @@ nexus/
 │   │   ├── Telegram.txt            # Telegram (Ping-Bot)
 │   │   └── Telegram-Ben.txt        # Telegram-Bot für Ben
 │   ├── Ben/
+│   │   ├── ARBEITSLOG.md           # Ben-Arbeitsprotokoll
+│   │   ├── ben.md                  # Ben-Agent (Rolle/Wissen)
 │   │   └── memory.md               # Ben-Agent Gedächtnis
 │   └── Luna/                       # Luna (KI-Agent mit eigenem SOUL)
 │       ├── README.md
@@ -94,7 +103,12 @@ nexus/
 │           └── USER.md             # User-Profile
 │
 ├── 50_Systeme/                     # Systeme & Hardware
-│   └── hardware.md                 # Gerätepark, Tailscale, Ports
+│   └── hardware.md                 # Gerätepark, Tailscale, 126 Ollama-Modelle
+│
+├── 60_Referenz/                    # Referenzen & Wissen
+│   ├── improvements.md             # 17 Verbesserungen, 5 offene Fragen
+│   ├── lessons-learned.md          # 25 Lessons (Git, Agenten, Infra, Acino)
+│   └── service-ports.md            # Alle Service-Ports (Mac mini, GX10, etc.)
 │
 ├── 70_Arbeit/                      # Arbeitskontext
 │   ├── itintech-firma.md           # Itin TechSolutions, UID, Rechtliches
@@ -115,28 +129,26 @@ nexus/
 │       ├── setup.md                # Installation & Setup
 │       └── speaker-gpio.md         # GPIO-Speaker-Steuerung
 │
-└── _tools/                         # (deprecated — 2026-06-14 entfernt)
-    (ehemals: check_append_only.py, gen_tree_index.py, etc.)
+└── _reports/                       # Lauf-Report
+    └── NACHT_2026-06-25.md         # Nachtlauf-Report 25.06.2026
 ```
-
----
 
 ## Datei-Typen
 
 | Typ | Anzahl | Beschreibung |
 |-----|--------|-------------|
-| **Log-Dateien** (LOG.md) | 20 | Wochenlogs, append-only |
-| **Projekt-Files** | 14 | Projekt-Dokumentation |
+| **Log-Dateien** (LOG.md) | 23 | Wochenlogs, append-only |
+| **Projekt-Files** | 22 | Projekt-Dokumentation |
 | **Agenten-Files** | 9 | Ben & Luna |
 | **Roboter-Files** | 9 | PiCrawler "Manfred" |
 | **Personen-Files** | 2 | Justin & Sarah |
 | **Arbeits-Files** | 4 | Firma, Kunden, Kollaboration, Versicherungen |
 | **System-Files** | 1 | Hardware |
-| **README/Index** | 8 | Top-level & Domänen-Index |
+| **Referenz-Files** | 3 | Lessons, Improvements, Service-Ports |
+| **README/Index** | 6 | Top-level & Domänen-Index |
 | **API-Keys** | 3 | Brave, Telegram, Telegram-Ben |
 | **Obsidian-Config** | 3 | appearance, app, core-plugins |
-
----
+| **Report** | 1 | Nachtlauf 25.06.2026 |
 
 ## Wichtige Pfade
 
@@ -150,4 +162,7 @@ nexus/
 | Ben memory | `30_Agenten/Ben/memory.md` | Ben-Agent Gedächtnis |
 | Luna SOUL | `30_Agenten/Luna/SOUL.md` | Luna-Persönlichkeit |
 | Hardware | `50_Systeme/hardware.md` | Gerätepark |
+| Service-Ports | `60_Referenz/service-ports.md` | Alle Ports |
+| Lessons Learned | `60_Referenz/lessons-learned.md` | 25 Lessons |
+| Improvements | `60_Referenz/improvements.md` | 17 Verbesserungen |
 | API-Keys | `30_Agenten/APIKeys/README.md` | Keys-Doku |
