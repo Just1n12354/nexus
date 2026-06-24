@@ -70,12 +70,45 @@ IT-Dienstleistungen:
 * Webseite Basic KMU: CHF 1'500–2'500
 * Wartungs-Abo: CHF 30–60/Monat
 
-## Finanzziele
+## Services (neue 2026)
 
-* 2026: CHF 8'000–12'000
-* 2027: CHF 30'000–45'000
-* 2028: CHF 60'000–90'000
-* Strategie: 100% Eigenmittel, keine Kredite/Investoren
+* ClaudeSync: Config-Sync über alle Geräte (Bootstrap spiegelt `~/.claude`)
+* JustReise: Reise-App (Port 8060, Tailscale-MagicDNS)
+* AI Fight Club: Lokale LLM-Liga über 99 Ollama-Modelle (40 Modelle, 5 Skills × 3 Level)
+* Watson: Git-History nachträglich aufräumen (Conventional-Commits)
+* ProjectFusion: Projekt-Standard V5 (Topologie, Agent-Kollaboration, Versionierung)
+* JustLauncher: Start-Dashboard (geplant, Port 8000)
+
+## Acino-Bezug
+
+* LinkedIn-Refresh (24.05.2026): neue Headline, About, Skills, ItinTech-Eintrag
+* CirQit-OpenAPI-Achievement (358 Anlagen)
+* LinkedIn-Kontakte: 53 (24.05.2026, vor 43)
+
+## Finanzielle Stabilität
+
+* Acino Salär: CHF 6'130.90 (April 2026, mit Nachzahlung)
+* Acino Salär: CHF 5'780 (Mai 2026, regulärer Stand)
+* Lohnerhöhung 04.2026: CHF 77'042/Jahr — April war einmaliger Nachzahlung-Bestandteil
+* Trading212: Autoinvest CHF 5/Tag
+* Ziel: 95% Vanguard FTSE All-World UCITS ETF + 5% UBS Core SPI ETF
+* 3a: CHF 605/Monat (Ziel-Investrate, nicht anfassen/umschichten)
+
+## Finanzen (JustFinancePrivate)
+
+* Budget: Miete 1'250 (Simone 1'000 + Alex Knupp 250)
+* Budget: Krankenkasse 490 (Visana 446.90 + CSS 44.00)
+* Budget: Steuern 650 (reduziert von 1'000)
+* Budget: Handy 60 (erhöht von 40)
+* Budget: Sparkonto 1'000 (erhöht von 800)
+* Budget: Spotify 10 (TWINT an Yannic Itin, 25 Zahlungen/572 CHF seit 2022)
+
+## Entscheidungen (2026)
+
+* Clustern macht keinen Sinn (08.06.2026, exo-Cluster-Test) — M4-Bandbreite (~120 GB/s) ist Bottleneck
+* Auto-Push: Alles hochpushen (Justins Anweisung)
+* Netlify: Forms senden nicht automatisch Mails, Email-Notification muss pro Site eingerichtet werden
+* PAT-Token: Auf GitHub revoken/rotieren (alte Backup-Kopien sichtbar)
 
 ## Businessplan
 

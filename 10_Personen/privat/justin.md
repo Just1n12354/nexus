@@ -64,6 +64,14 @@ Wichtige Acino-Themen:
 * Performance Cycle / Zielvereinbarungen sauber dokumentieren
 * Technische Aufgaben zuverlässig verfolgen
 
+Wichtige Acino-Themen aktuell (KW_20-KW_25):
+
+* cirQit-OpenAPI-Achievement (358 Anlagen, LinkedIn-Ref)
+* SOPs verständlicher machen (KW_22)
+* Maschinen-PC-Backup-Strategie (KW_23)
+* Elektrische Legenden vor Ort anbringen (KW_24)
+* PAT-Token revoken (alte OneDrive-Kopien sichtbar)
+
 Wichtige Acino-Kontakte:
 
 * Roger: Manager / Performance / Zielvereinbarungen

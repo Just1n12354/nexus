@@ -87,6 +87,11 @@ Grund: Keine Rückmeldung erhalten.
 * Archivierte Projekte nur als Referenz nutzen
 * Bei Kundenwebsites Netlify Form Notifications immer separat einrichten
 
+## Wichtige Infos
+
+* PAT-Token war in alter OneDrive-Backup-Kopie sichtbar → revoken/rotieren
+* Netlify Form Notifications: Emails müssen pro Site separat eingerichtet werden
+
 ## Verweise
 
 * `itintech-firma`

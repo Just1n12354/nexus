@@ -26,56 +26,65 @@ related: ["[[services-mac-mini]]", "[[storage-cloud]]", "[[security-status]]", "
 
 # Geräte-Index
 
-| Gerät / Hostname |      Tailscale-IP | OS      | Rolle                                             |
-| ---------------- | ----------------: | ------- | ------------------------------------------------- |
-| `gx10-bf12`      |   `100.75.47.118` | Linux   | ASUS Ascent GX10 / GB10 / AI-Arbeitsgerät         |
-| `justingamingpc` |   `100.94.200.83` | Windows | Justin Gaming-PC / RTX 3090 / lokale KI-Toolchain |
-| `macmini`        |    `100.89.217.4` | macOS   | Mac mini M4 / Server / Hermes mit Codex-Abo       |
-| `justnas`        |  `100.122.172.62` | Linux   | Synology DS923+ / NAS / Datenablage               |
-| `justinmacairm4` |   `100.119.74.63` | macOS   | MacBook Air M4 / Entwicklung / CS50               |
-| `s24-von-justin` |    `100.99.130.6` | Android | Justin Smartphone                                 |
-| `s21-von-sarah`  |    `100.94.50.21` | Android | Sarah Smartphone                                  |
-| `sarahgamingpc`  | `100.114.201.107` | Windows | Sarah Gaming-PC                                   |
-| `justlaptop`     |  `100.117.38.122` | Windows | Justin Laptop                                     |
-| `justpi5`        |   `100.119.30.59` | Linux   | Raspberry Pi 5 / JustPi                           |
+ Gerät / Hostname |      Tailscale-IP | OS      | Rolle                                             |
+ ---------------- | ----------------: | ------- | ------------------------------------------------- |
+ `gx10-bf12`      |   `100.75.47.118` | Linux   | ASUS Ascent GX10 / GB10 / AI-Arbeitsgerät         |
+ `justingamingpc` |   `100.94.200.83` | Windows | Justin Gaming-PC / RTX 3090 / lokale KI-Toolchain |
+ `macmini`        |    `100.89.217.4` | macOS   | Mac mini M4 / Server / Hermes mit Codex-Abo       |
+ `justnas`        |  `100.122.172.62` | Linux   | Synology DS923+ / NAS / Datenablage               |
+ `justinmacairm4` |   `100.119.74.63` | macOS   | MacBook Air M4 / Entwicklung / CS50               |
+ `s24-von-justin` |    `100.99.130.6` | Android | Justin Smartphone                                 |
+ `s21-von-sarah`  |    `100.94.50.21` | Android | Sarah Smartphone                                  |
+ `sarahgamingpc`  | `100.114.201.107` | Windows | Sarah Gaming-PC                                   |
+ `justlaptop`     |  `100.117.38.122` | Windows | Justin Laptop                                     |
+ `justpi5`        |   `100.119.30.59` | Linux   | Raspberry Pi 5 / JustPi                           |
 
 ---
 
 # Server / KI / Infrastruktur
 
-## ASUS Ascent GX10 / GB10
+ ## ASUS Ascent GX10 / GB10
 
-Hostname:
+ Hostname:
 
-* `gx10-bf12`
+ * `gx10-bf12`
 
-Tailscale:
+ Tailscale:
 
-* `100.75.47.118`
+ * `100.75.47.118`
 
-OS:
+ OS:
 
-* Linux
+ * Linux
 
-Rolle:
+ Rolle:
 
-* lokaler AI-/Agenten-Computer
-* Arbeitsgerät für lokale KI-Tests
-* geplant für Ben / lokale Agenten-Workflows
-* Teil des Mini-Server-/AI-Rack-Setups
+ * lokaler AI-/Agenten-Computer
+ * Arbeitsgerät für lokale KI-Tests
+ * geplant für Ben / lokale Agenten-Workflows
+ * Teil des Mini-Server-/AI-Rack-Setups
 
-Masse:
+ Masse:
 
-* 150 × 150 × 51 mm
+ * 150 × 150 × 51 mm
 
-Gewicht:
+ Gewicht:
 
-* 1.48 kg
+ * 1.48 kg
 
-Wichtig:
+ Wichtig:
 
-* zusammen mit Mac mini, Synology NAS und USV geplant
-* 35-cm-Breitenlimit bei Rack-/Regalplanung beachten
+ * zusammen mit Mac mini, Synology NAS und USV geplant
+ * 35-cm-Breitenlimit bei Rack-/Regalplanung beachten
+
+ LLM-Modelle (126 Ollama-Modelle, 1.4 TB total):
+
+ * Llama-3.2-3B-4bit (1.7 GB) — 50 tok/s single-node
+ * Llama-3.1-8B-4bit (4.2 GB)
+ * Qwen3.5-27B-4bit (15 GB) — 5.4 tok/s single-node, 3.7 tok/s verteilt (TCP, kein RDMA)
+ * Qwen3.5-27B-8bit (40 GB) — langsamer als single-node
+
+ Erkenntnis (08.06.2026, exo-Cluster-Test): Clustern macht keinen Sinn — M4-Basisbandbreite (~120 GB/s) ist der echte Bottleneck, nicht Clustering. Cluster lohnt erst ab M4 Max/Ultra + RDMA + Modell zu gross für 1 Gerät (70B+).
 
 ---
 
