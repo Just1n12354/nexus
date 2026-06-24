@@ -1,3 +1,10 @@
+---
+title: Itintech-Versicherungen
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # ItinTech · Versicherungen
 
 Status: aktiv

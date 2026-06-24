@@ -1,3 +1,10 @@
+---
+title: Sherlock-Holmes
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # Sherlock Holmes · App
 
 Status: prototyp  ·  Version: 0.004  ·  Letztes Update: 2026-06-14

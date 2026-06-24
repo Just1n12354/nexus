@@ -5,6 +5,8 @@ type: log
 kw: 21
 range_2026: 18.05.–24.05.2026
 entries: 59
+status: aktiv
+updated: 2026-06-24
 ---
 
 # LOG KW 21  (Referenz 2026: 18.05.–24.05.2026)

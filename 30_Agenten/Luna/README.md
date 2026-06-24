@@ -1,3 +1,10 @@
+---
+title: Readme
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # Luna
 
 Persistentes Brain von **Luna** im Vault. Luna ist die Hermes-Runtime, die live unter

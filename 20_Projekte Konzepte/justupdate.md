@@ -1,3 +1,10 @@
+---
+title: Justupdate
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # JustUpdate · App
 
 Status: aktiv  ·  Version: 0.002  ·  Letztes Update: 2026-06-14

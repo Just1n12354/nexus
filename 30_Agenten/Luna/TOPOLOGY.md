@@ -1,3 +1,10 @@
+---
+title: Topology
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # Hermes Home Topologie
 
 Stand: 2026-06-12 (Wartungspass durch Claude / Fable 5)

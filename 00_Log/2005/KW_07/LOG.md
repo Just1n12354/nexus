@@ -5,6 +5,8 @@ type: log
 kw: 07
 jahr: 2005
 entries: 1
+status: aktiv
+updated: 2026-06-24
 ---
 
 # LOG KW 07  (2005)

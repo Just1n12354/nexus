@@ -1,3 +1,10 @@
+---
+title: Projectnorm
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # ProjectNorm · App (Standard/Tooling)
 
 Status: aktiv  ·  Version: 0.000  ·  Letztes Update: 2026-06-14

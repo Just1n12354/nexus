@@ -1,3 +1,10 @@
+---
+title: Readme
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # APIKeys
 
 Status: aktiv  ·  Letztes Update: 2026-06-21

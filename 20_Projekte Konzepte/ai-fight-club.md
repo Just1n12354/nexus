@@ -1,3 +1,10 @@
+---
+title: Ai-Fight-Club
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # AI Fight Club · App
 
 Status: aktiv  ·  Version: 6.0.0-dev  ·  Letztes Update: 2026-06-12

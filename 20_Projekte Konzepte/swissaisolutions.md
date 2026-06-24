@@ -1,3 +1,10 @@
+---
+title: Swissaisolutions
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # SwissAISolutions · App (Produkt)
 
 Status: aktiv (Konzept)  ·  Version: 0.001  ·  Letztes Update: 2026-06-15

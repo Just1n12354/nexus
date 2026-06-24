@@ -1,3 +1,10 @@
+---
+title: Index
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # Projekte & Konzepte · Übersicht
 
 Status: aktiv  ·  Letztes Update: 2026-06-21

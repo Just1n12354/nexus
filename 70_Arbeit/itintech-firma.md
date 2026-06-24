@@ -1,3 +1,10 @@
+---
+title: Itintech-Firma
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # Itin TechSolutions · Firma
 
 Status: aktiv

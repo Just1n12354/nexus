@@ -1,3 +1,10 @@
+---
+title: Memory
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 nexus at /Users/imjustin/Documents/GitHub/nexus is Luna’s durable source of truth; trust the live filesystem over remembered bootstrap lore. Current visible structure includes 00_Log, 10_Personen/privat, 20_Projekte Konzepte, 30_Agenten, 50_Systeme, 70_Arbeit and 80_Roboter; 30_Agenten/Luna is a committed mirror, not the live runtime.
 §
 nexus and Itin-TechSolutions are separate repos/namespaces; use live vault structure over old bootstrap assumptions because the slimmed-down nexus removed many legacy entry files and folders.

@@ -1,3 +1,10 @@
+---
+title: Claudesync
+type: note
+status: aktiv
+updated: 2026-06-24
+---
+
 # ClaudeSync · App
 
 Status: prototyp  ·  Version: 0.006 (Milestone V0.02)  ·  Letztes Update: 2026-06-14
