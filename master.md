@@ -34,7 +34,7 @@ Das Nexus Vault ist eine **strukturierte Wissensdatenbank** mit 8 Hauptdomänen,
 ## Domänen
 
 ### [[00_Log/README|00_Log]] — Wochenlogs
-Append-only Log-System mit append-only Wochenlogs mit append-only Log-System mit append-only Wochenlogs.
+Append-only Log-System.
 - Struktur: `00_Log/JJJJ/KW_NN/LOG.md` (Jahr → Kalenderwoche)
 - Format: `log TT.MM.JJJJ HH:MM <Gerät/Persona> — <was wurde>`
 - Aktuelle Woche: 2026/KW_25 (Stand 2026-06-24)
@@ -129,13 +129,13 @@ description: Kurze Beschreibung
 
 | Bereich | Stem | Beschreibung |
 |---------|------|-------------|
-| Alle Projekte | [[20_Projekte/INDEX]] | Portfolio-Übersicht mit Status & Ports |
-| Firma | [[itintech-firma]] | Itin TechSolutions, UID, Rechtliches |
-| Acino-Job | [[acino-job]] | Acino/Arcera Jobs, Wartung, SIP |
-| Agenten | [[30_Agenten/]] | Ben (Hermes) & Luna (KI-Agent) |
-| Hardware | [[50_Systeme/hardware]] | Gerätepark, Tailscale, Ports |
-| Roboter | [[80_Roboter/README]] | PiCrawler Manfred, Quadruped |
-| API-Keys | [[30_Agenten/APIKeys]] | Brave, Telegram (privat committed) |
+| Alle Projekte | [[20_Projekte Konzepte/INDEX|20_Projekte & Konzepte]] | Portfolio-Übersicht mit Status & Ports |
+| Firma | [[70_Arbeit/itintech-firma.md|Itin TechSolutions]] | Itin TechSolutions, UID, Rechtliches |
+| Acino-Job | [[acino-job|Acino/Arcera]] | Acino/Arcera Jobs, Wartung, SIP |
+| Agenten | [[30_Agenten/|30_Agenten]] | Ben (Hermes) & Luna (KI-Agent) |
+| Hardware | [[50_Systeme/hardware.md|Hardware]] | Gerätepark, Tailscale, Ports |
+| Roboter | [[80_Roboter/README|80_Roboter]] | PiCrawler Manfred, Quadruped |
+| API-Keys | [[30_Agenten/APIKeys/README.md|API-Keys]] | Brave, Telegram (privat committed) |
 
 ---
 

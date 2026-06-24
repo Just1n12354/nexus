@@ -182,4 +182,4 @@ log 08.06.2026 09:19 Claude Code (MacBook Air M4) — **Vollständiger Inhalt vo
 
 ## Log-Navigation
 
-← [[KW_23/LOG|KW 23]] · [[_log-index|↑ Log-Index]] · [[KW_25/LOG|KW 25]] →
+← [[00_Log/2026/KW_23/LOG.md|KW 23]] · [[00_Log/README|↑ Log-Index]] · [[00_Log/2026/KW_25/LOG.md|KW 25]] →

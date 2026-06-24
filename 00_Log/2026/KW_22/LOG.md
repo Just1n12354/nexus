@@ -65,4 +65,4 @@ log 25.05.2026 — Claudio (Sarah Gaming PC) — nexus-Cleanup-Session: 25 vor-C
 
 ## Log-Navigation
 
-← [[KW_21/LOG|KW 21]] · [[_log-index|↑ Log-Index]] · [[KW_23/LOG|KW 23]] →
+← [[00_Log/2026/KW_21/LOG.md|KW 21]] · [[00_Log/README|↑ Log-Index]] · [[00_Log/2026/KW_23/LOG.md|KW 23]] →

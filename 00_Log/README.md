@@ -11,7 +11,7 @@ updated: 2026-06-08
 
 > Topologie seit 2026-06-08: **Jahr zuerst, dann Kalenderwoche** — `00_Log/<JJJJ>/KW_NN/LOG.md`.
 > Pro KW eine `LOG.md`, chronologisch, neueste oben, **append-only**.
-> Aktuelle Woche: **2026/KW_25** → [[KW_25/LOG|KW 25]]
+> Aktuelle Woche: **2026/KW_25** → [[00_Log/2026/KW_25/LOG.md|KW 25]]
 
 ## Topologie
 
@@ -46,8 +46,7 @@ log TT.MM.JJJJ HH:MM <Gerät/Persona> — <was wurde gemacht>   → [[stem]] [[s
 Im nexus ist `00_Log/.../LOG.md` das **zentrale Log-System**.
 
 - Wenn Justin oder ein Bot einfach nur **"log"** sagt, ist standardmässig dieses Wochenlog gemeint.
-- Bot-lokale Dateien unter `30_Agenten/<Bot>/` gelten **nicht** als das zentrale Log, sondern als lokale Arbeitsnotizen mit Funktionsnamen wie `handoff.md` oder `improvement-log.md`.
-- Details dazu: [[30_Agenten/LOGGING]].
+- Bot-lokale Dateien unter `30_Agenten/<Bot>/` gelten **nicht** als das zentrale Log, sondern als lokale Arbeitsnotizen.
 
 ## Neue Kalenderwoche anlegen (Workflow)
 
@@ -79,20 +78,20 @@ Neueste Einträge oben. Format: `log TT.MM.JJJJ HH:MM <Gerät/Persona> — <was 
 
 ## Kontext-Hubs
 
-- [[profile]] — Person · [[acino-job]] — Acino/Arcera · [[itintech-firma]] — Firma
-- [[20_Projekte/README]] — Projekte · [[service-ports]] · [[storage-cloud]] — Infrastruktur · [[linkedin]]
+- [[10_Personen/privat/justin.md|Justin]] — Person · [[acino-job|Acino/Arcera]] — Arbeit · [[70_Arbeit/itintech-firma.md|Firma]]
+- [[20_Projekte Konzepte/INDEX|Projekte]] · [[50_Systeme/hardware.md|Hardware]] · [[storage-cloud|Backup]] · [[linkedin]]
 
-## Vorhandene Wochen (Stand 2026-06-08)
+## Vorhandene Wochen (Stand 2026-06-24)
 
 ### 2026
-[[KW_09/LOG|KW 09]] · [[KW_12/LOG|12]] · [[KW_13/LOG|13]] · [[2026/KW_14/LOG|14]] · [[KW_15/LOG|15]] · [[KW_16/LOG|16]] · [[KW_17/LOG|17]] · [[KW_18/LOG|18]] · [[KW_19/LOG|19]] · [[KW_20/LOG|20]] · [[KW_21/LOG|21]] · [[KW_22/LOG|22]] · [[KW_23/LOG|23]] · [[KW_24/LOG|24]] · [[KW_25/LOG|25]] ⭐
+[[00_Log/2026/KW_09/LOG.md|KW 09]] · [[00_Log/2026/KW_12/LOG.md|KW 12]] · [[00_Log/2026/KW_13/LOG.md|KW 13]] · [[00_Log/2026/KW_14/LOG.md|KW 14]] · [[00_Log/2026/KW_15/LOG.md|KW 15]] · [[00_Log/2026/KW_16/LOG.md|KW 16]] · [[00_Log/2026/KW_17/LOG.md|KW 17]] · [[00_Log/2026/KW_18/LOG.md|KW 18]] · [[00_Log/2026/KW_19/LOG.md|KW 19]] · [[00_Log/2026/KW_20/LOG.md|KW 20]] · [[00_Log/2026/KW_21/LOG.md|KW 21]] · [[00_Log/2026/KW_22/LOG.md|KW 22]] · [[00_Log/2026/KW_23/LOG.md|KW 23]] · [[00_Log/2026/KW_24/LOG.md|KW 24]] · [[00_Log/2026/KW_25/LOG.md|KW 25]] ⭐
 
 ### 2025
-[[2025/KW_01/LOG|KW 01]] (Militär-Kaderausbildung) · [[2025/KW_40/LOG|KW 40]]
+[[00_Log/2025/KW_01/LOG.md|KW 01]] (Militär-Kaderausbildung) · [[00_Log/2025/KW_40/LOG.md|KW 40]]
 
 ### Frühere Jahre (Lebens-Meilensteine nach ISO-Woche)
-- **2023:** [[2023/KW_31/LOG|KW 31]] (Acino-Start)
-- **2022:** [[2022/KW_14/LOG|KW 14]] (Sarah) · [[2022/KW_35/LOG|KW 35]]
-- **2019:** [[2019/KW_31/LOG|KW 31]] (Lehrbeginn)
-- **2005:** [[2005/KW_07/LOG|KW 07]]
-- **2002:** [[2002/KW_46/LOG|KW 46]]
+- **2023:** [[00_Log/2023/KW_31/LOG.md|KW 31]] (Acino-Start)
+- **2022:** [[00_Log/2022/KW_14/LOG.md|KW 14]] (Sarah) · [[00_Log/2022/KW_35/LOG.md|KW 35]]
+- **2019:** [[00_Log/2019/KW_31/LOG.md|KW 31]] (Lehrbeginn)
+- **2005:** [[00_Log/2005/KW_07/LOG.md|KW 07]]
+- **2002:** [[00_Log/2002/KW_46/LOG.md|KW 46]]

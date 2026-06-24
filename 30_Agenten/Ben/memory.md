@@ -1,4 +1,5 @@
 ---
+title: Ben memory — Gedächtnis
 name: ben-memory
 status: aktiv
 updated: 2026-06-24

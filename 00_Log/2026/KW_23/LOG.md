@@ -51,4 +51,4 @@ log 02.06.2026 10:40 Gaming PC Sarah — London-Reise (3.–9.6.): Dokumente im 
 
 ## Log-Navigation
 
-← [[KW_22/LOG|KW 22]] · [[_log-index|↑ Log-Index]] · [[KW_24/LOG|KW 24]] →
+← [[00_Log/2026/KW_22/LOG.md|KW 22]] · [[_log-index|↑ Log-Index]] · [[00_Log/2026/KW_24/LOG.md|KW 24]] →
