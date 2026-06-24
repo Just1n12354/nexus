@@ -38,4 +38,4 @@ Watson ist ein Tool, das nachträglich die Git-History von Repos durchgeht und u
 - 5 Repos normalisiert (173 Commits nexus, 8 Merges erhalten)
 - PrivateBackup, Itin-TechSolutions, nexus durchgelaufen
 
-→ [[feedback_nexus_parallel_agents]] (Watson-Commit war von Claudio, nicht Watson-Session)
+→  (Watson-Commit war von Claudio, nicht Watson-Session)

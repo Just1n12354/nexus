@@ -2,7 +2,7 @@
 title: 50_Systeme — Infrastruktur & Hardware
 type: moc
 status: aktiv
-updated: 2026-06-24
+updated: 2026-06-25
 description: Übersicht über alle Hardwar-Komponenten, Netzwerk-Setup (Tailscale), und Port-Zuweisungen.
 ---
 
@@ -12,7 +12,6 @@ description: Übersicht über alle Hardwar-Komponenten, Netzwerk-Setup (Tailscal
 
 ## Verweise
 
-[[hardware]] - Geräteliste und Specs
-[[acino-job]] - Workstation-Setup am Arbeitsplatz
-[[storage-cloud]] - Backup-Strategie
-[[network-tailscale]] - Tailscale-Netzwerk
+- [[50_Systeme/hardware.md|Hardware]] — Geräteliste und Specs (GX10, Mac mini, NAS, GamingPC, Pi 5)
+- [[70_Arbeit/acino-job.md|Acino-Job]] — Workstation-Setup am Arbeitsplatz
+- [[60_Referenz/service-ports.md|Service-Ports]] — Port-Zuweisungen aller Services

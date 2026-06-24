@@ -24,4 +24,4 @@ JustDaybook war ein Flask-basiertes Finanz-Tagebuch für Justin: tägliche Erfas
 ### Status
 - Archiviert
 - Hinweis in KW_24 Log (Claude Code: JustDaybook V2 im Friedhof, Flask-Rewrite)
-→ [[wissens-konsolidierung]] (JustDaybook als Projekt in Nexus integriert, dann archiviert)
+→  (JustDaybook als Projekt in Nexus integriert, dann archiviert)

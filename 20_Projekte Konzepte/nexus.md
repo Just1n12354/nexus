@@ -47,5 +47,5 @@ Das Nexus-Vault ist das zentrale Wiki für Justin Itins Leben und Arbeit: Person
 - 400+ .md-Dateien, ~900 Wikilinks
 - Sehr aktiv gepflegt, 0 stale >90 Tage
 
-→ [[nexus-hardening]] (Hardening-Philosophie und Tools)
-→ [[wissens-konsolidierung]] (Wissensübernahme aus Itin-TechSolutions-Repo)
+→  (Hardening-Philosophie und Tools)
+→  (Wissensübernahme aus Itin-TechSolutions-Repo)

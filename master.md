@@ -15,17 +15,20 @@ updated: 2026-06-25
 
 ## Überblick
 
-Das Nexus Vault ist eine **strukturierte Wissensdatenbank** mit 6 Hauptdomänen, 80+ Dateien und einem append-only Wochenlog-System. Es dient als Single Source of Truth für Firma, Privat, Projekte, Agenten, Systeme, Referenzen und Roboter.
+Das Nexus Vault ist eine **strukturierte Wissensdatenbank** mit 7 Hauptdomänen, 80+ Dateien und einem append-only Wochenlog-System.
 
 ```
 ┌────────────┬──────────────┬────────────┬────────────────┐
 │  00_Log    │ 10_Personen  │ 20_Projekte│  30_Agenten    │
 │  Wochenlogs│  Profile     │ Konzepte   │  KI-Systeme    │
 ├────────────┼──────────────┼────────────┼────────────────┤
-│  50_Systeme│ 70_Arbeit    │ 80_Roboter │ 60_Referenz    │
-│  Hardware  │ Acino/Itin   │  PiCrawler │  Lessons,      │
-│            │              │              │  Improvements  │
-└────────────┴──────────────┴──────────────┴────────────────┘
+│  40_Finanzen│ 50_Systeme   │ 70_Arbeit  │ 80_Roboter     │
+│  Budgets   │ Hardware     │ Acino/Itin │  PiCrawler     │
+├────────────┼──────────────┼────────────┼────────────────┤
+│  60_Referenz│ README      │ README     │ README         │
+│  Lessons,  │ 10/40/50/60  │ 70         │ 80             │
+│  Improv.   │              │            │                │
+└────────────┴──────────────┴────────────┴────────────────┘
 ```
 
 ## Domänen
@@ -42,7 +45,14 @@ Append-only Log-System.
 ### [[10_Personen/]] — Personen
 
 - [[10_Personen/privat/justin.md|Justin Itin]] — IT-Einzelunternehmer, Gründer Itin TechSolutions
+  - [[biografie|Biografie]] — Persönliche Daten, Beruf, Sprachen, Hobbys
+  - [[arbeitsweise|Arbeitsprinzipien]] — Arbeitsstil, Kommunikation, Agentenregeln
 - [[10_Personen/privat/sarah.md|Sarah]] — Partnerin
+
+### [[40_Finanzen/]] — Finanzen
+
+- Finanzprinzipien, Budgets, Investments, Konten
+- App: [[20_Projekte Konzepte/justfinanceprivate|JustFinancePrivate]]
 
 ### [[20_Projekte Konzepte/INDEX|20_Projekte & Konzepte]]
 
@@ -72,9 +82,9 @@ Portfolio aller Projekte und Konzepte:
 
 - [[70_Arbeit/itintech-firma.md|Itin TechSolutions]] — Firma (UID CHE-359.787.114, gegründet 01.04.2026)
 - [[70_Arbeit/itintech-kunden.md|Kunden]] — Kundenübersicht
+- [[70_Arbeit/acino-job.md|Acino/Arcera]] — Arbeitgeber-Job, SIP-Wartung, E-Instandhaltung
 - [[70_Arbeit/itintech-kollaborationen.md|Kollaborationen]] — Partner & Zusammenarbeit
 - [[70_Arbeit/itintech-versicherungen.md|Versicherungen]] — Helvetia, Zurich, AXA etc.
-- [[acino-job|Acino/Arcera]] — Arbeitgeber-Job, SIP-Wartung, E-Instandhaltung
 
 ### [[80_Roboter/README|80_Roboter]] — Physische Roboter
 
@@ -119,12 +129,6 @@ description: Kurze Beschreibung
 - Format: `log TT.MM.JJJJ HH:MM <Gerät/Persona> — <was wurde gemacht>`
 - Einträge chronologisch (neueste zuerst)
 - Alte Einträge **niemals** editieren oder löschen
-- Append-only-Prinzip gilt als verbindliche Disziplin
-
-### Versionsnummerierung (Projekte)
-
-- `MAJOR.MINOR.PATCH-dev` (z.B. `6.0.0-dev`, `0.002`)
-- Alle Versionen in `VERSIONS.md` pro Projekt
 
 ### Port-Zuweisung (Mac mini, Tailscale 100.89.217.4)
 
@@ -137,7 +141,7 @@ description: Kurze Beschreibung
 | 8040 | justreise |
 | 8050 | justbetter (Konzept) |
 | 5077 | justsavegame |
-| 8765 | atlast/justsavegame (historisch) |
+| 8765 | atlas/justsavegame (historisch) |
 
 ## Quick-Jumps
 
@@ -145,11 +149,12 @@ description: Kurze Beschreibung
 |---------|------|-------------|
 | Alle Projekte | [[20_Projekte Konzepte/INDEX|20_Projekte & Konzepte]] | Portfolio-Übersicht mit Status & Ports |
 | Firma | [[70_Arbeit/itintech-firma.md|Itin TechSolutions]] | Itin TechSolutions, UID, Rechtliches |
-| Acino-Job | [[acino-job|Acino/Arcera]] | Acino/Arcera Jobs, Wartung, SIP |
+| Acino-Job | [[70_Arbeit/acino-job.md|Acino/Arcera]] | Acino/Arcera Jobs, Wartung, SIP |
 | Agenten | [[30_Agenten/|30_Agenten]] | Ben (GX10) & Luna (KI-Agent) |
 | Hardware | [[50_Systeme/hardware.md|Hardware]] | Gerätepark, Tailscale, 126 Ollama-Modelle |
 | Roboter | [[80_Roboter/README|80_Roboter]] | PiCrawler Manfred, Quadruped |
 | Referenzen | [[60_Referenz/README|60_Referenz]] | Service-Ports, Lessons Learned, Improvements |
+| Finanzen | [[40_Finanzen/README|Finanzen]] | Budgets, Investments, Konten |
 | API-Keys | [[30_Agenten/APIKeys/README.md|API-Keys]] | Brave, Telegram (privat committed) |
 
 ## History
@@ -162,4 +167,4 @@ description: Kurze Beschreibung
 - **2026-06-14**: `_tools/` entfernt (deprecated, check_vault.py etc. in Git-History)
 - **2026-06-21**: API-Keys bewusst ins Repo commitet (private decision)
 - **2026-06-24**: Master-Index angelegt
-- **2026-06-25**: 60_Referenz hinzugefügt (service-ports, lessons-learned, improvements); _tools entfernt; _reports/ hinzugefügt
+- **2026-06-25**: 60_Referenz hinzugefügt; 40_Finanzen hinzugefügt; 70_Arbeit/acino-job.md hinzugefügt; 60_Referenz/README.md hinzugefügt; 10_Personen/privat/biografie.md + arbeitsweise.md (Split von justin.md); _reports/ hinzugefügt

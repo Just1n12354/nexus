@@ -54,8 +54,11 @@ nexus/
 │   └── README.md                   # Log-Topologie, Eintrags-Muster, Workflow
 │
 ├── 10_Personen/                    # Personen-Profile
+│   ├── README.md                   # Ordner-README (Personen-Übersicht)
 │   └── privat/
-│       ├── justin.md               # Justin Itin — IT-Einzelunternehmer
+│       ├── justin.md               # Justin Itin — IT-Einzelunternehmer (Hub-Index)
+│       ├── biografie.md               # Justin — Biografie (persönliche Daten, Beruf, Hobbys)
+│       ├── arbeitsweise.md         # Justin — Arbeitsprinzipien (Kommunikation, Agentenregeln)
 │       └── sarah.md                # Sarah — Partnerin
 │
 ├── 20_Projekte Konzepte/           # Projekt-Portfolio
@@ -102,15 +105,23 @@ nexus/
 │           ├── MEMORY.md           # System-Wissen
 │           └── USER.md             # User-Profile
 │
+├── 40_Finanzen/                    # Finanzübersicht
+│   ├── README.md                   # Finanzprinzipien, Budgets, Quick-Jumps
+│   └── budgets.md                  # Detailierte Budget-Aufstellung
+│
 ├── 50_Systeme/                     # Systeme & Hardware
+│   ├── README.md                   # Ordner-README (Systeme-Übersicht)
 │   └── hardware.md                 # Gerätepark, Tailscale, 126 Ollama-Modelle
 │
 ├── 60_Referenz/                    # Referenzen & Wissen
+│   ├── README.md                   # Referenz-Index (alle Referenz-Dateien)
 │   ├── improvements.md             # 17 Verbesserungen, 5 offene Fragen
 │   ├── lessons-learned.md          # 25 Lessons (Git, Agenten, Infra, Acino)
 │   └── service-ports.md            # Alle Service-Ports (Mac mini, GX10, etc.)
 │
 ├── 70_Arbeit/                      # Arbeitskontext
+│   ├── README.md                   # Ordner-README (Arbeit-Übersicht)
+│   ├── acino-job.md                # Acino/Arcera — Arbeitgeber-Job, Themen, Kontakte
 │   ├── itintech-firma.md           # Itin TechSolutions, UID, Rechtliches
 │   ├── itintech-kollaborationen.md # Partner & Zusammenarbeit
 │   ├── itintech-kunden.md          # Kundenübersicht
@@ -141,11 +152,12 @@ nexus/
 | **Projekt-Files** | 22 | Projekt-Dokumentation |
 | **Agenten-Files** | 9 | Ben & Luna |
 | **Roboter-Files** | 9 | PiCrawler "Manfred" |
-| **Personen-Files** | 2 | Justin & Sarah |
-| **Arbeits-Files** | 4 | Firma, Kunden, Kollaboration, Versicherungen |
-| **System-Files** | 1 | Hardware |
-| **Referenz-Files** | 3 | Lessons, Improvements, Service-Ports |
-| **README/Index** | 6 | Top-level & Domänen-Index |
+| **Personen-Files** | 4 | Justin (3), Sarah (1) |
+| **Arbeits-Files** | 5 | Firma, Kunden, Acino, Kollaboration, Versicherungen |
+| **System-Files** | 2 | Hardware, Ordner-README |
+| **Referenz-Files** | 4 | Lessons, Improvements, Service-Ports, Ordner-README |
+| **Finanz-Files** | 2 | Budgets, Ordner-README |
+| **README/Index** | 9 | Top-level & Ordner-Index |
 | **API-Keys** | 3 | Brave, Telegram, Telegram-Ben |
 | **Obsidian-Config** | 3 | appearance, app, core-plugins |
 | **Report** | 1 | Nachtlauf 25.06.2026 |
@@ -165,4 +177,6 @@ nexus/
 | Service-Ports | `60_Referenz/service-ports.md` | Alle Ports |
 | Lessons Learned | `60_Referenz/lessons-learned.md` | 25 Lessons |
 | Improvements | `60_Referenz/improvements.md` | 17 Verbesserungen |
+| Acino-Job | `70_Arbeit/acino-job.md` | Arbeitgeber-Kontext |
+| Finanzen | `40_Finanzen/README.md` | Budgets, Investments |
 | API-Keys | `30_Agenten/APIKeys/README.md` | Keys-Doku |

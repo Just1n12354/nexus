@@ -55,5 +55,5 @@ ProjectFusion definiert den Standard für alle Justin-Projekte: einheitliche Top
 - Vorlage für neue Projekte aktualisiert
 - Problem: "Parallel-Ordner statt Versions-Rename" gefixt (3× falsche Kopie → Umbenennung)
 
-→ [[feedback_nexus_parallel_agents]] (Parallel-Agent-Probleme)
+→  (Parallel-Agent-Probleme)
 → [[lessons-learned]] (Versionierungs-Lehren)

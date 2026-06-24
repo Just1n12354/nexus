@@ -27,4 +27,4 @@ Atlas kartiert und verzeichnet alle Wissensbestände im Nexus-Vault als zentrale
 - Keine eigene Datei im Vault
 - Master-DECIDE: Projekt-Notiz angelegt
 
-→ [[wissens-konsolidierung]] (Atlas wurde im Rahmen der Konsolidierung erwähnt)
+→  (Atlas wurde im Rahmen der Konsolidierung erwähnt)

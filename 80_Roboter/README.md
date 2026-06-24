@@ -1,33 +1,24 @@
 ---
-title: Roboter — Domänen-MOC
-type: index
+title: 80_Roboter — Physische Roboter
+type: moc
 status: aktiv
-updated: 2026-06-14
-description: Einstiegspunkt (MOC) für alle Roboter-Projekte. Aktuell ein aktives System: PiCrawler "Manfred" (SunFounder Quadruped auf Raspberry Pi).
-aliases: [roboter, robots, robotik, 80_Roboter]
-tags: [domain/robotik, moc, index]
-related: ["[[picrawler/README]]", "[[network-tailscale]]", "[[network-tailscale]]", "[[TREE]]"]
+updated: 2026-06-25
+description: Domänen-MOC für physische Roboter im Nexus Vault.
 ---
 
-# Roboter — Domänen-MOC
+# 80_Roboter — Physische Roboter
 
-> Domänen-Index für physische Roboter-Hardware. Detail-Wissen liegt pro System in Unterordnern.
+Übersicht über physische Roboter und ihre Dokumentation im Nexus.
 
-## Aktive Systeme
+## Roboter
 
-| System | Typ | Host | Status | Stem |
-|---|---|---|---|---|
-| PiCrawler "Manfred die Spinne" | Quadruped, 12 Servos (4×3 DOF) | `JustinRasperryPI4` ([[network-tailscale]]) | **aktiv** (1 Bein defekt, Kamera offen) | [[picrawler/README]] |
+- [[80_Roboter/picrawler/README.md|PiCrawler "Manfred"]] — SunFounder Quadruped, 12 Servos, Raspberry Pi
+  - Status: aktiv (1 Bein defekt, Kamera offen)
+  - [[80_Roboter/picrawler/hardware-status.md|Hardware-Status]] — Defekte, Reparatur-Notizen
+  - [[80_Roboter/picrawler/camera-detection.md|Kamera-Detection]] — Objekterkennung
+  - [[80_Roboter/picrawler/kinematics.md|Kinematik]] — Servo-Steuerung
+  - [[80_Roboter/picrawler/setup.md|Setup]] — Installation & Konfiguration
 
-## Sicherheits-Kurzregeln (PiCrawler)
+## Siehe auch
 
-- **Vor jedem Motion-Script:** [[picrawler/hardware-status]] lesen — Servo Pin 11 (Vorne-Links Fuß) defekt.
-- **Erste Aktion bei Servo-Power ON:** `crawler.do_step("sit", 40)` — nie `stand`/`forward`. Siehe [[picrawler/power-protocol]].
-- **Verkabelung weicht von Library-`PIN_LIST` ab** → nur Single-Servo-Befehle bis geklärt.
-
-## Querverweise
-
-[[picrawler/README]] · [[network-tailscale]] · [[network-tailscale]] · [[TREE]]
-
----
-> *Quelle: neu angelegt 2026-06-14 (Domänen-MOC für 80_Roboter, verweist auf picrawler/README).*
+- [[50_Systeme/hardware.md|Hardware]] — Gerätepark (Pi 5 für Roboter)
