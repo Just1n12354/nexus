@@ -2,7 +2,7 @@
 title: Itintech-Firma
 type: note
 status: aktiv
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # Itin TechSolutions · Firma
@@ -74,6 +74,7 @@ IT-Dienstleistungen:
 
 * ClaudeSync: Config-Sync über alle Geräte (Bootstrap spiegelt `~/.claude`)
 * JustReise: Reise-App (Port 8060, Tailscale-MagicDNS)
+* JustinV2: Gesundheits-/Gewohnheits-App mit REST-API (Port 8050)
 * AI Fight Club: Lokale LLM-Liga über 99 Ollama-Modelle (40 Modelle, 5 Skills × 3 Level)
 * Watson: Git-History nachträglich aufräumen (Conventional-Commits)
 * ProjectFusion: Projekt-Standard V5 (Topologie, Agent-Kollaboration, Versionierung)

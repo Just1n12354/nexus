@@ -20,11 +20,11 @@ Das ist die nexus-Sicht auf Justins Projekt-Portfolio — ein Kurzfile pro aktiv
 | [[aieyes]] | aktiv | 0.002 | — | — | Augen+Hände für KI (Screenshot + Maus/Tastatur); UIA-Hybrid auf Windows |
 | [[claudesync]] | prototyp | 0.006 | — | — | Single Source für Claude-Code-Config über alle Geräte; SessionStart-Hooks, /push |
 | [[jarvis]] | aktiv | 0.002 | 3000 (WebUI) | — | Lokaler Sprach-/Aktions-Assistent (STT→Ollama→TTS), Mac primär |
-| [[justbetter]] | konzept | 0.001 | 8050 | — | KI-Coach für Gesundheit/Lernen/Gewohnheiten (reines Konzept) |
+| [[justbetter]] | konzept | 0.001 | — | — | KI-Coach für Gesundheit/Lernen/Gewohnheiten (reines Konzept; 8050 ist aktuell von JustinV2 belegt) |
 | [[justfinancebusiness]] | aktiv | 0.002 | 8010 | 75 | Buchhaltung Itin TechSolutions, OR-konform, stdlib http.server |
 | [[justfinanceprivate]] | aktiv | 0.002 | 8020 | 67 | Private Finanzen (Konten/Steuern/Lotto), git-push als Backup |
 | [[justlauncher]] | aktiv | 0.002 | 8000 | 63 | Dashboard für alle Just-Dienste, Flask + native Wrapper |
-| [[justreise]] | aktiv | 0.002 | 8040 | 72 | Reise-Field-Guide (Flask-PWA), aktuell London-Trip |
+| [[justreise]] | aktiv | 0.002 | 8060 | 72 | Reise-Field-Guide (Flask-PWA), aktuell London-Trip |
 | [[justsavegame]] | aktiv | 0.002 | 8765 (Win) | 78 | Savegame-Backup-Manager Windows mit GitHub-Sync |
 | [[justtodo]] | aktiv | 0.002 | 8030 | 66 | Datei-basierte Todo-App, auch von Bots genutzt |
 | [[justupdate]] | aktiv | 0.002 | — (Desktop) | 72 | Windows-Wartungs-Tool + Self-Update-Pipeline für Kunden |

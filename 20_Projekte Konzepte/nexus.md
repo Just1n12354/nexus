@@ -1,6 +1,6 @@
 ---
 title: Nexus — Personal Wiki & Vault
-description: Nexus: Justin Itins personal Wiki (Obsidian-Style), 400+ .md-Dateien, 6 nummerierte Ordner (00-80_), System für Lebens- und Arbeitswissen
+description: Nexus: Justin Itins persönliches Wiki/Vault (Obsidian-Style) mit 9 Hauptdomänen, Wochenlogs und strukturiertem Lebens-/Arbeitswissen
 type: project
 status: aktiv
 created: 2026-06-25
@@ -15,16 +15,16 @@ project: nexus
 
 Das Nexus-Vault ist das zentrale Wiki für Justin Itins Leben und Arbeit: Personen, Projekte, Systeme, Agenten, Logbücher, Referenzen.
 
-### Struktur (6 nummerierte Ordner)
+### Struktur (9 Hauptdomänen)
 - 00_Log — Wochen- und Jahres-Logs (2002–2026, ~215 Einträge)
 - 10_Personen — Privat & Arbeit (Justin, Sarah, Acino, etc.)
-- 20_Projekte — Konzepte und aktive Projekte
+- 20_Projekte Konzepte — Konzepte und aktive Projekte
 - 30_Agenten — KI-Agenten (Robert, Felix, Frank, Bruno, Luna, Claudio, Ben)
+- 40_Finanzen — Budgets, Prinzipien, Finanzübersicht
 - 50_Systeme — Infrastruktur, Ports, Tailscale, Hardware
-- 60_Referenz — Rechts, Steuer, Gesetze (Schweizer Quellen)
-- 70_Arbeit — ItinTech, Kunden, Finanzen
+- 60_Referenz — Referenzen, Lessons Learned, Service-Ports
+- 70_Arbeit — Itin TechSolutions, Kunden, Acino, Versicherungen
 - 80_Roboter — PiCrawler, Robotik
-- archiv — Veraltete/alte Versionen
 
 ### Kern-Features
 - Wikilinks für Vernetzung (900+ Links)

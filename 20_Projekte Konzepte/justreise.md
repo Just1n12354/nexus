@@ -2,7 +2,7 @@
 title: Justreise
 type: note
 status: aktiv
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # JustReise · App
@@ -21,7 +21,7 @@ Reise-Field-Guide als Flask-PWA. Geteilter Guide (Justin & Sarah): Flüge, Hotel
 - Daten in `data/london/` (Pässe, Buchungen, Finanzen, State-JSONs lokal/git-ignoriert; nur london.md im Git). Pfad per Env `JUSTREISE_LONDON_DIR` überschreibbar.
 
 ## Betrieb
-- Mac mini, Port **8040**. Start: `python3 src/app.py` oder Docker Compose.
+- Mac mini, Port **8060**. Start: `python3 src/app.py` oder Docker Compose.
 
 ## Health (Audit 2026-06-07)
 - **72/100** — größtes Problem: hardcoded „London"-Konstanten, manuelles Deploy, keine Tests. Generalisierung (London → Trip) nur lohnend bei weiteren Reisen.

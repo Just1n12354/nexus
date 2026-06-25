@@ -15,7 +15,7 @@ updated: 2026-06-25
 
 ## Überblick
 
-Das Nexus Vault ist eine **strukturierte Wissensdatenbank** mit 7 Hauptdomänen, 80+ Dateien und einem append-only Wochenlog-System.
+Das Nexus Vault ist eine **strukturierte Wissensdatenbank** mit 9 Hauptdomänen, 80+ Dateien und einem append-only Wochenlog-System.
 
 ```
 ┌────────────┬──────────────┬────────────┬────────────────┐
@@ -56,10 +56,11 @@ Append-only Log-System.
 
 ### [[20_Projekte Konzepte/INDEX|20_Projekte & Konzepte]]
 
-Portfolio aller Projekte und Konzepte:
+Das Projekt-Portfolio wird kanonisch in [[20_Projekte Konzepte/INDEX|INDEX.md]] gepflegt.
 
-- **Aktive Apps (22):** ai-fight-club, aieyes, claudesync, jarvis, justbetter, justfinancebusiness (8010), justfinanceprivate (8020), justlauncher (8000), justreise (8040), justsavegame (8765), justtodo (8030), justupdate, justwebsite, projectnorm, sherlock-holmes, swissaisolutions, nexus, watson, atlas, justdaybook, projectfusion, aiworld
-- **Friedhof (eingestellt):** AIWorld, JustDaybook
+- **Aktive Apps (Auswahl):** JustLauncher (8000, geplant), JustFinanceBusiness (8010), JustFinancePrivate (8020), JustTodo (8030), JustReise (8060), JustSavegame (8765, Windows), Jarvis (3000 WebUI)
+- **Konzepte/Standards:** JustBetter (Konzept), ProjectNorm, ProjectFusion, Watson
+- **Friedhof:** AIWorld, Atlas, JustDaybook
 
 ### [[30_Agenten/]] — KI-Agenten
 
@@ -130,18 +131,17 @@ description: Kurze Beschreibung
 - Einträge chronologisch (neueste zuerst)
 - Alte Einträge **niemals** editieren oder löschen
 
-### Port-Zuweisung (Mac mini, Tailscale 100.89.217.4)
+### Wichtige Service-Ports
 
 | Port | Service |
 |------|---------|
-| 8000 | justlauncher (Dashboard, geplant) |
-| 8010 | justfinancebusiness |
-| 8020 | justfinanceprivate |
-| 8030 | justtodo |
-| 8040 | justreise |
-| 8050 | justbetter (Konzept) |
-| 5077 | justsavegame |
-| 8765 | atlas/justsavegame (historisch) |
+| 8000 | JustLauncher (geplant) |
+| 8010 | JustFinanceBusiness |
+| 8020 | JustFinancePrivate |
+| 8030 | JustTodo |
+| 8050 | JustinV2 |
+| 8060 | JustReise |
+| 8765 | JustSavegame (Windows / Gaming-PC) |
 
 ## Quick-Jumps
 

@@ -2,7 +2,7 @@
 title: Justbetter
 type: note
 status: aktiv
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # JustBetter · App
@@ -21,7 +21,7 @@ Persönlicher KI-Coach für Körper, Geist und Leben: ein System, das Gesundheit
 - Geplante Module (Denkrahmen, nicht Umsetzungszusage): Profil/Onboarding, Ernährungserfassung (Foto/Text/Barcode), Abnehm-/Fitness-Coach, Schwächen-Training (Gedächtnis/Konzentration/Englisch), KI-Tagebuch, Gewohnheiten/Streaks, Wissensspeicher, Lebensanalyse, AI Vision, Zukunftsmodul „Digital Twin".
 
 ## Betrieb
-- Im PORTS.md-Schema als Konzept-Prototyp auf Port 8050 (Mac mini, stdlib http.server, via JustLauncher) vorgesehen — LaunchAgent noch anzulegen.
+- Reines Konzept ohne reservierten Live-Port. Die frühere 8050-Notiz ist stale; Port 8050 wird aktuell von JustinV2 genutzt.
 
 ## Verweise
 - Quelle: 10_Apps/JustBetter/

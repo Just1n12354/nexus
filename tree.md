@@ -74,7 +74,7 @@ nexus/
 │   ├── justfinancebusiness.md      # Buchhaltung Itin TechSolutions (Port 8010)
 │   ├── justfinanceprivate.md       # Private Finanzen (Port 8020)
 │   ├── justlauncher.md             # Dashboard für alle Just-Dienste (Port 8000)
-│   ├── justreise.md                # Reise-Field-Guide (Port 8040)
+│   ├── justreise.md                # Reise-Field-Guide (Port 8060)
 │   ├── justsavegame.md             # Savegame-Backup-Manager Windows (Port 8765)
 │   ├── justtodo.md                 # Datei-basierte Todo-App (Port 8030)
 │   ├── justupdate.md               # Windows-Wartungs-Tool + Self-Update

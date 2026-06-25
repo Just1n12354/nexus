@@ -25,7 +25,7 @@ tags: [person/justin, biografie]
 ## Sprachen
 
 - **Schweizerdeutsch:** Muttersprache
-- **Hochdeutsch:** Fliesend
+- **Hochdeutsch:** Fließend
 - **Englisch:** Mittleres Niveau (Ziel: gezielte Verbesserung für Informatik, Game Dev, Dokumentation, internationale Kommunikation)
 
 ## Hobbys
@@ -47,8 +47,7 @@ Besonders relevante Spiele für Geschmack und Inspiration:
 
 - Survival/Crafting: ARK, 7 Days to Die, The Forest, Dying Light, Days Gone, Green Hell, Sons of the Forest
 - Open World: GTA V, Arma 3, No Man's Sky
-- Co-op/Koop: Satisfactory, Satisfactory
-- Koop: Satisfactory, Satisfactory
+- Koop/Automation: Satisfactory
 - Narrative: The Last of Us, The Last Caretaker
 - Bauernhof/Sandkasten: Stardew Valley, Raft
 - Shooter: CS2, Rainbow Six Siege, Battlefield

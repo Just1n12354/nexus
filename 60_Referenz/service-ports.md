@@ -15,9 +15,9 @@ description: Alle Ports und URLs der laufenden Dienste auf den Geräten.
 | JustTodo | 8030 | live |
 | JustFinancePrivate | 8020 | live |
 | JustFinanceBusiness | 8010 | live |
-| JustReise | 8060 | live |
+| JustReise | 8060 | LaunchAgent vorhanden, aktuell down |
+| JustinV2 | 8050 | live |
 | JustLauncher | 8000 | geplant |
-| JustSavegame | 5077 | live |
 | Hermes | 9000 | noch nicht live |
 | AIWorld | 9000 | tot (friedhof) |
 | ClaudeSync | 9000 | tot (friedhof) |
@@ -34,6 +34,7 @@ description: Alle Ports und URLs der laufenden Dienste auf den Geräten.
 | Service | Port | Status |
 |---------|------|--------|
 | ClaudeEyes | - | live |
+| JustSavegame | 8765 | live |
 | OpenSSH | 22 | Tailscale-only |
 
 ## Raspberry Pi 5 (100.119.30.59)
