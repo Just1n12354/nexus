@@ -233,7 +233,7 @@ Dauerhafter Mount Mac mini (macmini, eingerichtet 22.06.2026):
 * Auto-Mount: LaunchAgent `~/Library/LaunchAgents/com.justin.justnas-mount.plist` (RunAtLoad + alle 5 min remount), Log `/tmp/justnas-mount.log`
 * Freigaben gesamt: web_packages, docker, M2JustNas (SSD), web, JustNas
 * `ollama/` auf dem NAS = 1.4 TB lokale LLM-Modelle (126 Ollama-Modelle, Stand 22.06.2026)
-* **MinecraftAI-Backups**: `Z:\MinecraftBackup\` (= `~/JustNAS/MinecraftBackup/`), pro Gerät ein Unterordner — `Minecraftserver/` = Mac-mini-/@Marc-Server-Runtime (alle Nicht-Git-Dateien: server.jar, world, server.properties+RCON-PW, logs; mit `BACKUP-INFO.md`), `MainPc/` = @Peter/MainPC. **Kanonischer Ziel-Pfad für künftige Server-Backups: `Z:\MinecraftBackup\Minecraftserver`** (eingerichtet 28.06.2026). NICHT zu verwechseln mit dem TABU-Archiv `Z:\Archiv Minecraft\`. Siehe [[botv2-minecraft]].
+* **MinecraftAI-Backups**: `Z:\MinecraftBackup\` (= `~/JustNAS/MinecraftBackup/`), je Gerät/Rolle ein Unterordner (eingerichtet 28.06.2026): `Minecraftserver/` = Mac-mini-/@Marc-**Server-Runtime** (alle Nicht-Git-Dateien: server.jar, world, server.properties+RCON-PW, logs; mit `BACKUP-INFO.md`) — **kanonischer Ziel-Pfad für Server-Backups**; `Marc/` = @Marc-**Toolchain** (isolierte mineflayer-4.33.0 als `mineflayer-mfdir.tgz` + `rcon.mjs` + `marc-test.mjs` + README, macht ChatLogger/Marc reboot-fest); `Olaf/`, `Peter/` = die jeweiligen Bot-Geräte (GX10 / MainPC). NICHT zu verwechseln mit dem TABU-Archiv `Z:\Archiv Minecraft\`. Siehe [[botv2-minecraft]].
 
 Offen:
 
