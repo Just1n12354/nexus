@@ -1,6 +1,10 @@
 
 # Luna Runtime-Backup (enthaelt .env/auth.json Tokens + 160MB state.db) – niemals committen
-30_Agenten/Luna/_backup/
+04_agenten/luna/_backup/
+
+# Migration/Quarantäne — nicht Teil des Vault-Inhalts (Secrets, Code, Obsidian-Config)
+_quarantine/
+_meta/
 
 *.key
 *.pem
