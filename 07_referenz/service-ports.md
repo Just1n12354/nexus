@@ -8,14 +8,16 @@ description: Alle Ports und URLs der laufenden Dienste auf den Geräten.
 
 # Service-Ports
 
-## Mac mini (100.89.217.4)
+## Mac mini (100.89.217.4) · Tailscale-Host `justinmacmini` (justinmacmini.tail8b5081.ts.net)
+
+> Hostname 2026-07-07 von `macmini` → `justinmacmini` umbenannt (Muster wie justinmacairm4). Alte `macmini.tail…`-URLs lösen nicht mehr auf.
 
 | Service | Port | Status |
 |---------|------|--------|
 | JustTodo | 8030 | live |
 | JustFinancePrivate | 8020 | live |
 | JustFinanceBusiness | 8010 | live |
-| JustReise | 8060 | LaunchAgent vorhanden, aktuell down |
+| JustReise | 8060 | live (LaunchAgent com.itintechsolutions.justreise geladen, health ok) |
 | JustinV2 | 8050 | live |
 | JustLauncher | 8000 | geplant |
 | Hermes | 9000 | noch nicht live |
