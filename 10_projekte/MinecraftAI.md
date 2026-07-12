@@ -1,5 +1,7 @@
 # MinecraftAI — Bot „Peter"
 
+> 📖 Ausführliche Doku (Architektur, Aufgaben-Motor, Survival, Roadmap): [[MinecraftAI-Peter-Autonomie]]
+
 Kurz: Eigener lokaler Minecraft-Server + KI-Mitspieler **Peter** auf **gx10**, gebaut am
 2026-07-08 mit reinem **mineflayer** (Ersatz für das gelöschte Olaf/Ben-Projekt).
 
