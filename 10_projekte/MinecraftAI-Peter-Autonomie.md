@@ -4,7 +4,7 @@ aliases: [Peter Autonomie, MinecraftAI Peter, MC-Agent Peter]
 tags: [projekt/minecraft-ki, agent, mineflayer, llm/qwen, gx10]
 status: aktiv
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-10
 gerät: gx10 (NVIDIA GB10 / DGX Spark)
 ---
 
@@ -18,6 +18,10 @@ gerät: gx10 (NVIDIA GB10 / DGX Spark)
 > **Survival** (Auto-Essen, Kampf/Flucht), Ziel-Setzung per Keyword *und* LLM.
 > **Bewiesen:** Peter hat sich selbst aus einem Zombie-Death-Loop am Spawn befreit
 > (vorher Tod alle ~7 s, danach 0 Tode durch Flucht).
+> **Update 2026-07-10:** Roadmap #1 erledigt — Peter **rüstet sich autonom selbst aus**
+> (Holz → Planken/Stöcke/Werkbank → Holzschwert + Holzspitzhacke, *live im Spiel bewiesen*),
+> dazu ein **LLM-freier Autopilot** (spielt selbstständig die Tech-Leiter hoch) und eine
+> **Telemetrie** (`telemetry.jsonl`) fürs Daten-Sammeln. Details → Abschnitt „Update 2026-07-10".
 >
 > Kern-Notiz: [[MinecraftAI]] · Gerät: [[Rechner GB10]] · LLM: [[Qwen3.6 Reasoning-Toggle]]
 
@@ -50,6 +54,7 @@ timeline
     Olaf (V3) : Coherence-Guard (PIANO) + Capability-Probe (PLAICraft)
     Peter (Neu, 2026-07-08) : reines mineflayer, eigener Paper-Server, bewusst simpel
     Peter Autonomie (2026-07-09) : Aufgaben-Motor + Survival + Selbstverteidigung
+    Peter Self-Equip (2026-07-10) : Dependency-Resolver + Autopilot + Telemetrie
 ```
 
 Justin hat die alte Linie (Ben/Berta/Olaf, [[botv2-minecraft]]) **gelöscht** und am 2026-07-08
@@ -304,7 +309,8 @@ Das LLM kann selbst handeln, indem es Tags in die Antwort schreibt — analog zu
 > Das Maximum kommt **nicht** aus einem schlaueren LLM, sondern aus einer **deterministischen
 > Fähigkeiten-Bibliothek + einem Planer**, mit dem LLM als dünner Absichts-Schicht.
 
-### #1 Hierarchische Ziele + Selbst-Ausrüstung — *grösster Hebel*
+### #1 Hierarchische Ziele + Selbst-Ausrüstung — *grösster Hebel* ✅ **ERLEDIGT 2026-07-10**
+> [!success] Umgesetzt & live bewiesen — siehe Abschnitt „Update 2026-07-10".
 Ein **Dependency-Resolver**, der Rezept-Bäume rückwärts auflöst. „Bau mir eine Spitzhacke" zerlegt sich selbst:
 
 ```mermaid
@@ -353,6 +359,87 @@ wird Peter ein Agent, der sich nachts selbst bewaffnet, Ziele zerlegt und dazule
 4. **Survival hat Vorrang.** Ein Reflex-Tick, der Spieler-Ziele überstimmt, wenn Leben auf dem Spiel steht.
 5. **Robust gegen Crash & Reboot.** Lieber sauber neu verbinden als hängen bleiben.
 6. **Live testen.** Justin verifiziert im Spiel, ich spawne **keine** Test-Bots ([[justin-testet-live-selbst]]).
+
+---
+
+## Update 2026-07-10 — Self-Equipment, Autopilot & Telemetrie
+
+Roadmap **#1 umgesetzt** und darüber hinaus zwei neue Schichten: ein **Autopilot**, der Peter
+*ohne Kommando* spielen lässt, und eine **Telemetrie** fürs Daten-Sammeln. Alles deterministisch,
+kein LLM in der Ausführung.
+
+### 14.1 Self-Equipment-Planner (Dependency-Resolver)
+
+`taskPrepareBasicGear(cancelled)` rechnet den Materialbedarf **deterministisch vor** (kein
+LLM-Planen von Einzelschritten) und arbeitet die Zielkette ab:
+
+```mermaid
+flowchart LR
+    G[mach dich bereit] --> N{Waffe + Spitzhacke da?}
+    N -->|ja| EQ[beste Waffe anlegen · fertig]
+    N -->|nein| W{Holz/Planken genug?}
+    W -->|nein| CW[ensureWoodLogs → taskCollectWood]
+    W -->|ja| PL[ensurePlanks]
+    CW --> PL --> ST[ensureSticks]
+    ST --> TB[ensureCraftingTablePlaced]
+    TB --> SW[ensureCraftItem wooden_sword]
+    SW --> PK[ensureCraftItem wooden_pickaxe]
+    PK --> EQ2[equipBestWeapon] --> R[ehrlicher Status: fertig/fehlt/warum]
+```
+
+- **Chat-Kommandos:** „mach dich bereit", „rüste dich aus", „craft ausrüstung", „mach werkzeug".
+  Per Chat „autopilot aus/an" steuerbar; „stop" bricht ab (pausiert Autopilot 45 s).
+- **Helfer** (alle mit `cancelled()`-Check, max. 5 Fehlversuche pro Teilziel, `{ok, reason}`-Rückgabe):
+  `countItems/hasItem/findItem/equipBestWeapon/hasNearbyCraftingTable`,
+  `ensureWoodLogs/ensurePlanks/ensureSticks/ensureCraftingTablePlaced/ensureCraftItem`.
+  Reused bestehende Bausteine (`taskCollectWood`, `placeItem`) statt zu duplizieren.
+
+> [!success] LIVE bewiesen (nicht nur `node --check`)
+> Peter hat sich im echten Spiel **komplett autonom ausgerüstet** — Inventar-Spur aus der Telemetrie:
+> `oak_log:2 → crafting_table + planks → stick:7 + wooden_sword → wooden_pickaxe`.
+> Werkbank platziert, Schwert **und** Spitzhacke gecraftet, Waffe angelegt. Damit ist der
+> Akzeptanztest „aus Holz → Planken/Stöcke/Werkbank/Schwert/Spitzhacke" im Spiel erfüllt.
+
+### 14.2 Autopilot (autonomes Früh-Spiel)
+
+`autopilotTick` (5-s-Timer, LLM-frei) fährt eine **Prioritätskette** und startet immer nur **eine**
+Aufgabe: `prepare_gear → collect_wood → mine_stone → craft_stone_tools → idle_gather`. Nur bei
+Gegner **< 6 Blöcken** pausiert er (Survival hat Vorrang). Cooldowns + **Stuck-Erkennung**: 3×
+dieselbe Entscheidung ohne Fortschritt → `taskExplore` (läuft in neue Gegend, damit Scans neue
+Ressourcen finden). Ein/aus per Chat oder `PETER_AUTOPILOT=0`.
+
+> [!check] Live bestätigt
+> Peter klettert die Tech-Leiter **eigenständig** hoch (Ausrüstung → Holz bunkern → Stein-Abbau),
+> roamt real über die Map und nimmt Progression nach Toden selbst wieder auf.
+
+### 14.3 Telemetrie — `~/minecraft-bot/telemetry.jsonl`
+
+Ein JSON-Objekt pro Zeile (jq-tauglich). Event-Typen: `task_start/end`, `combat_start/disengage/end`,
+`autopilot_decision/stuck`, `explore_start/fail`, `death/respawn`, `heartbeat` (alle 30 s:
+Pos/HP/Hunger/Inventar), `craft_attempt/result`, `bot_error/kicked/end`. **Das** ist die Grundlage,
+um „was gut/schlecht läuft" objektiv zu sehen. Auswerten z. B.:
+`grep '"type":"death"' telemetry.jsonl` · `grep '"combat_disengage"' … | grep -o '"reason":"[^"]*"' | sort | uniq -c`.
+
+### 14.4 Vier Bugs — nur durch autonomes Laufen + Telemetrie sichtbar geworden
+
+| Bug | Symptom (aus Telemetrie) | Fix |
+|---|---|---|
+| **Ressourcen-Deadlock** | `prepare_gear` bricht in 39 ms ab, kein Baum in 48-Block-Reichweite | bei Stuck → `taskExplore` in neue Gegend |
+| **Pathfinder-Y-Falle** | `"Took too long to decide path"` — `GoalNear` nagelte Y unterirdisch fest | Erkundung über **`GoalNearXZ`** (Höhe egal → Pathfinder wählt Oberfläche) |
+| **Kampf-Endlosschleife** | 3 min in „Wehren" eingefroren; verfolgte unerreichbaren Gegner ewig, fror den **ganzen Bot** ein | Patt-Erkennung (kommt 5 s nicht näher) + 30-s-Timeout → **disengage** |
+| **Nacht-Thrash** | 33 Kämpfe / 4 min, kaum Fortschritt | `combatSuppressUntil` (nach „unreachable" 12 s nicht neu einloggen) + Autopilot nur bei Gegner < 6 Blöcken |
+
+> [!danger] Der schlimmste war die Kampf-Endlosschleife
+> Sie legte die *gesamte* Datensammlung tot (Survival hat Vorrang → Autopilot lief nicht mehr).
+> Genau die Art Bug, die man im statischen Check nie sieht, nur beim echten Spielen.
+
+### 14.5 Offener Kernbefund — validiert Roadmap #4 (Nacht-Sicherheit)
+
+> [!fail] Peter hat **keine Nacht-Strategie**
+> Nachts: Phantome (fliegen → unerreichbar) + Skelette → in 8 min **5 Tode**, jeder Tod resettet
+> das Inventar. Er progressiert trotzdem im Loop (respawn → neu ausrüsten), aber ineffizient.
+> **Nächster grösster Hebel = Roadmap #4:** bei Nacht eingraben/Unterschlupf + Bett/Schlafen,
+> oder unerreichbare Flieger schlicht ignorieren statt zu jagen.
 
 ---
 
