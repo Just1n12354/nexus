@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_projekte/MinecraftAI.md",
+                "file": "JustUpdate/SystemReparatur/Original.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MinecraftAI"
+              "title": "Original"
             }
           }
         ]
@@ -185,21 +185,41 @@
   },
   "active": "4ad66723c4e494a6",
   "lastOpenFiles": [
-    "10_projekte/MinecraftAI.md.tmp.3195822.df263cd5d185",
-    "10_projekte/MinecraftAI.md.tmp.3195822.246ba7991a34",
-    "10_projekte/MinecraftAI.md.tmp.3195822.3e7a4cf124c0",
-    "02_personen/privat/familie.md",
-    "01_log/logs/2026-W28.md",
-    "10_projekte/MinecraftAI.md.tmp.3195822.21c0b9ec4861",
-    "10_projekte/VW.md",
-    "10_projekte/MinecraftAI.md",
+    "01_log/README.md",
     "README.md",
     "TODO.md",
-    "10_projekte/VW.md.tmp.2530115.cecf804e4967",
-    "10_projekte/VW.md.tmp.2530115.c226ad7c3d0a",
-    "10_projekte/VW.md.tmp.2530115.fdf5f43a2d7c",
-    "10_projekte/VW.md.tmp.2530115.897ed426988f",
-    "10_projekte/VW.md.tmp.2530115.25a976e7af1f",
-    "10_projekte"
+    "JustUpdate/Windowsupdate/Original.md",
+    "JustUpdate/Wiederherstellungspunkt/Original.md",
+    "JustUpdate/Treiber/Original.md",
+    "JustUpdate/SystemReparatur/Original.md",
+    "JustUpdate/Store/Original.md",
+    "JustUpdate/Netzwerk/Original.md",
+    "JustUpdate/Defender/Original.md",
+    "JustUpdate/Bereinigen/Original.md",
+    "JustUpdate/Apps/Original.md",
+    "JustUpdate/Apps/Chatgpt.md",
+    "JustUpdate/Windowsupdate/Verbessert.md",
+    "JustUpdate/Windowsupdate/Gemini.md",
+    "JustUpdate/Windowsupdate/Deepseek.md",
+    "JustUpdate/Windowsupdate/Chatgpt.md",
+    "JustUpdate/Wiederherstellungspunkt/Verbessert.md",
+    "JustUpdate/Wiederherstellungspunkt/Gemini.md",
+    "JustUpdate/Wiederherstellungspunkt/Deepseek.md",
+    "JustUpdate/Wiederherstellungspunkt/Chatgpt.md",
+    "JustUpdate/Treiber/Verbessert.md",
+    "JustUpdate/Treiber/Gemini.md",
+    "JustUpdate/Treiber/Deepseek.md",
+    "JustUpdate/Treiber/Chatgpt.md",
+    "JustUpdate/SystemReparatur/Verbessert.md",
+    "JustUpdate/Windowsupdate",
+    "JustUpdate/Wiederherstellungspunkt",
+    "JustUpdate/Treiber",
+    "JustUpdate/SystemReparatur",
+    "JustUpdate/Store",
+    "JustUpdate/Netzwerk",
+    "JustUpdate/Defender",
+    "JustUpdate/Bereinigen",
+    "JustUpdate/Apps",
+    "JustUpdate"
   ]
 }
