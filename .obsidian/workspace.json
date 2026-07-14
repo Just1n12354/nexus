@@ -183,8 +183,14 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "4ad66723c4e494a6",
+  "active": "57528dff825e5e05",
   "lastOpenFiles": [
+    "JustUpdate/Apps/Verbessert.md.tmp.27052.9b3249dafcb4",
+    "JustUpdate/Apps/Verbessert.md.tmp.27052.377849d3df7e",
+    "JustUpdate/Bereinigen/Verbessert.md.tmp.27052.5a779a6caa43",
+    "JustUpdate/Apps/Verbessert.md.tmp.27052.8a8548df196f",
+    "01_log/logs/2026-W29.md.tmp.27052.09230487ea74",
+    "Ben/BEN_STAND_2026-07-13.md",
     "01_log/README.md",
     "README.md",
     "TODO.md",
@@ -209,17 +215,11 @@
     "JustUpdate/Treiber/Verbessert.md",
     "JustUpdate/Treiber/Gemini.md",
     "JustUpdate/Treiber/Deepseek.md",
-    "JustUpdate/Treiber/Chatgpt.md",
-    "JustUpdate/SystemReparatur/Verbessert.md",
     "JustUpdate/Windowsupdate",
     "JustUpdate/Wiederherstellungspunkt",
     "JustUpdate/Treiber",
     "JustUpdate/SystemReparatur",
     "JustUpdate/Store",
-    "JustUpdate/Netzwerk",
-    "JustUpdate/Defender",
-    "JustUpdate/Bereinigen",
-    "JustUpdate/Apps",
-    "JustUpdate"
+    "JustUpdate/Netzwerk"
   ]
 }
