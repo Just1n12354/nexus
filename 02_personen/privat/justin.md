@@ -2,7 +2,7 @@
 title: Justin
 type: index
 status: aktiv
-updated: 2026-06-25
+updated: 2026-07-20
 description: Justin Itin — IT-Einzelunternehmer, Gründer Itin TechSolutions. Einstiegspunkt.
 tags: [person/justin, profil, index]
 ---
@@ -15,6 +15,7 @@ tags: [person/justin, profil, index]
 
 - [[02_personen/privat/biografie|Biografie]] — Persönliche Daten, Beruf, Sprachen, Hobbys, Gaming
 - [[02_personen/privat/arbeitsweise|Arbeitsprinzipien]] — Arbeitsstil, Kommunikation, Agentenregeln
+- [[02_personen/privat/motorrad-und-fuehrerpruefung|Motorrad und Führerprüfung]] — Motorrad-Daten, Prüfungsrahmen, Ausbildungsschwerpunkte
 
 ## Kontext
 
