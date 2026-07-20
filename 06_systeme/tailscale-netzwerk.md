@@ -45,8 +45,8 @@ ssh JustinNAS@justnas.tail8b5081.ts.net
 # MacBook Air M4
 ssh <user>@justinmacairm4.tail8b5081.ts.net
 
-# JustMain (Gaming-PC?)
-ssh jitin@justmain.tail8b5081.ts.net
+# JustPC (Gaming-PC, vormals justmain)
+ssh jitin@justpc.tail8b5081.ts.net
 
 # JustLaptop
 ssh <user>@justlaptop.tail8b5081.ts.net

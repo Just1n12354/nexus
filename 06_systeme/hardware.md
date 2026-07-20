@@ -29,7 +29,7 @@ related: ["[[services-mac-mini]]", "", "", "", "", ""]
  Gerät / Hostname |      Tailscale-IP | OS      | Rolle                                             |
  ---------------- | ----------------: | ------- | ------------------------------------------------- |
  `gx10-bf12`      |   `100.75.47.118` | Linux   | ASUS Ascent GX10 / GB10 / AI-Arbeitsgerät         |
- | `justmain` |   `100.94.200.83` | Windows | Justin Gaming-PC / RTX 3090 / SSH-Server (manuell starten) |
+ | `justpc` | `100.94.200.83` | Windows | Justin Gaming-PC / RTX 3090 (früher justmain) |
  `macmini`        |    `100.89.217.4` | macOS   | Mac mini M4 / Server / Hermes mit Codex-Abo       |
  `justnas`        |  `100.122.172.62` | Linux   | Synology DS923+ / NAS / Datenablage               |
  `justinmacairm4` |   `100.119.74.63` | macOS   | MacBook Air M4 / Entwicklung / CS50               |
