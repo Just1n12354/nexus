@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_projekte/VW.md",
+                "file": "03_projekte/autos/VW-Polo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_projekte/VW.md",
+                "file": "03_projekte/autos/VW-Polo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_projekte/VW.md",
+                "file": "03_projekte/autos/VW-Polo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""

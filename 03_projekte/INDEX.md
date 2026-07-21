@@ -8,7 +8,7 @@ updated: 2026-06-24
 # Projekte & Konzepte · Übersicht
 
 Status: aktiv  ·  Letztes Update: 2026-06-21
-Quelle: `C:\Github\Itin-TechSolutions\20_Projekte` (READMEs je Projekt + VERSIONS.md, _audit/AUDIT.md, _audit/ROADMAP.md, 10_Apps/PORTS.md).
+Quelle: `Itin-TechSolutions/20_Projekte` (READMEs je Projekt + VERSIONS.md, _audit/AUDIT.md, _audit/ROADMAP.md, 10_Apps/PORTS.md).
 
 Das ist die nexus-Sicht auf Justins Projekt-Portfolio — ein Kurzfile pro aktivem Projekt in diesem Ordner, hier die Tabelle als Einstieg. Detail-Stand/Code liegt im Itin-TechSolutions-Repo.
 
@@ -29,7 +29,7 @@ Das ist die nexus-Sicht auf Justins Projekt-Portfolio — ein Kurzfile pro aktiv
 | [[just-todo|JustTodo]] | aktiv | 0.002 | 8030 | 66 | Datei-basierte Todo-App, auch von Bots genutzt |
 | [[just-update|JustUpdate]] | aktiv | 0.002 | — (Desktop) | 72 | Windows-Wartungs-Tool + Self-Update-Pipeline für Kunden |
 | [[just-website|JustWebsite]] | aktiv | 0.002 | — (Netlify) | 67 | Statische Firmen-Website Itin TechSolutions |
-|| [[project-fusion|ProjectFusion]] | aktiv | 5.0 | — | — | Projektstandard: Topologie V5, README = Single Source, Deck/AGENTS.md-Generierung, Agent-Kollaboration |
+| [[project-fusion|ProjectFusion]] | aktiv | 5.0 | — | — | Projektstandard: Topologie V5, README = Single Source, Deck/AGENTS.md-Generierung, Agent-Kollaboration |
 | [[sherlock-holmes|SherlockHolmes]] | prototyp | 0.004 | — | — | Recherche-Agent: Idee → GitHub/Reddit nach wiederverwendbaren Repos |
 | [[swissaisolutions]] | aktiv | 0.001 | — | — | Verkaufsprodukt aus Solomon: Plug-&-Play KI-Box für KMU (MRR) |
 
@@ -55,4 +55,4 @@ Das ist die nexus-Sicht auf Justins Projekt-Portfolio — ein Kurzfile pro aktiv
 
 ## Verweise
 - Firma: [[itintech-firma]]
-- Quelle Portfolio: `C:\Github\Itin-TechSolutions\20_Projekte`
+- Quelle: `Itin-TechSolutions/20_Projekte`

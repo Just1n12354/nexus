@@ -31,7 +31,9 @@ Nexus_KI_v1/
 │       ├── 2023-W31.md             # Acino-Start
 │       ├── 2025-W01.md             # Militär-Kaderausbildung
 │       ├── 2025-W40.md
-│       └── 2026-W09.md … 2026-W26.md   # 16 Wochen 2026 (W26 aktuell)
+│       ├── 2026-W09.md … 2026-W25.md   # Wochen 2026
+│       ├── 2026-W26-2026-06-22.md … 2026-W26-2026-06-28.md  # W26 aufgeteilt
+│       ├── 2026-W26.md                 # W26-Index (verweist auf Tagesdateien)
 │
 ├── 02_personen/                    # Personen-Profile
 │   ├── README.md                   # Personen-Übersicht
@@ -44,6 +46,8 @@ Nexus_KI_v1/
 ├── 03_projekte/                    # Projekt-Portfolio (gruppiert)
 │   ├── INDEX.md                    # Portfolio-Übersicht (alle Projekte)
 │   ├── README.md                   # Ordner-README
+│   ├── autos/
+│   │   └── VW-Polo.md              # VW Polo Comfortline 1.0 TSI — MIB2, FEC, Infotainment
 │   ├── finanzen/
 │   │   ├── just-finance-business.md    # Buchhaltung Itin TechSolutions (Port 8010)
 │   │   └── just-finance-private.md     # Private Finanzen (Port 8020)
@@ -66,6 +70,8 @@ Nexus_KI_v1/
 │       ├── just-daybook.md             # Flask-Tagebuch (archiviert)
 │       ├── just-website.md             # Statische Firmen-Website (Netlify)
 │       ├── nexus-projekt.md            # Haupt-Projekt: Nexus Vault
+│       ├── minecraftai.md                  # Minecraft-KI-Agent Peter (mineflayer, Qwen3.6)
+│       ├── minecraftai-peter-autonomie.md  # Peter: Autonomer Agent, Aufgaben-Motor, Survival
 │       ├── project-fusion.md           # Projekt-Standard V5
 │       ├── project-norm.md             # Projekt-Standard (README = Single Source)
 │       ├── sherlock-holmes.md          # Recherche-Agent (GitHub/Reddit)
@@ -74,7 +80,7 @@ Nexus_KI_v1/
 │
 ├── 04_agenten/                     # KI-Agenten
 │   ├── README.md                   # Agenten-Übersicht
-│   ├── ben/
+│   ├── ben/                        # Ben-Agent (Rolle/Wissen)
 │   │   ├── ben.md                  # Ben-Agent (Rolle/Wissen)
 │   │   ├── arbeitslog.md           # Ben-Arbeitsprotokoll
 │   │   ├── memory.md               # Ben-Agent Gedächtnis
@@ -136,8 +142,8 @@ Nexus_KI_v1/
 
 | Typ | Anzahl | Beschreibung |
 |-----|--------|-------------|
-| **Log-Dateien** | 24 | Wochenlogs, flach (YYYY-WNN.md), append-only |
-| **Projekt-Files** | 23 | Projekt-Dokumentation (finanzen/reise/tools/sonstige) |
+| **Log-Dateien** | 34 | Wochenlogs, flach (YYYY-WNN.md), append-only (W26 aufgeteilt) |
+| **Projekt-Files** | 26 | Projekt-Dokumentation (autos/finanzen/reise/tools/sonstige) |
 | **Agenten-Files** | 8 | Ben (3 md + 1 txt) & Luna (4 md/config + 2 memories) |
 | **Roboter-Files** | 9 | PiCrawler "Manfred" (picrawler/) |
 | **Personen-Files** | 4 | Justin (3), Sarah (1) |

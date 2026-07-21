@@ -23,7 +23,7 @@ gerät: gx10 (NVIDIA GB10 / DGX Spark)
 > dazu ein **LLM-freier Autopilot** (spielt selbstständig die Tech-Leiter hoch) und eine
 > **Telemetrie** (`telemetry.jsonl`) fürs Daten-Sammeln. Details → Abschnitt „Update 2026-07-10".
 >
-> Kern-Notiz: [[MinecraftAI]] · Gerät: [[Rechner GB10]] · LLM: [[Qwen3.6 Reasoning-Toggle]]
+> Kern-Notiz: [[MinecraftAI]] · Gerät: [[../rechner-gb10.md|Rechner GB10]] · LLM: Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo)
 
 ---
 
@@ -57,7 +57,7 @@ timeline
     Peter Self-Equip (2026-07-10) : Dependency-Resolver + Autopilot + Telemetrie
 ```
 
-Justin hat die alte Linie (Ben/Berta/Olaf, [[botv2-minecraft]]) **gelöscht** und am 2026-07-08
+Justin hat die alte Linie (Ben/Berta/Olaf, Bot-V2 (alte Minecraft-KI-Iteration, Itin-TechSolutions-Repo)) **gelöscht** und am 2026-07-08
 frisch mit reinem mineflayer neu aufgebaut — Schritt für Schritt, nicht das schwere
 Mindcraft-Framework. Am 2026-07-09 kam die Autonomie-Schicht dazu.
 
@@ -117,7 +117,7 @@ flowchart TB
 
 ### 3.3 LLM
 - vLLM auf `localhost:8000`, Modell `nvidia/Qwen3.6-35B-A3B-NVFP4`.
-- > [!important] Qwen-Template-Eigenheiten (siehe [[Qwen3.6 Reasoning-Toggle]])
+- > [!important] Qwen-Template-Eigenheiten (siehe Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo))
 >   - `chat_template_kwargs: { enable_thinking: false }` — sonst leerer `content` + Timeout.
 >   - **Genau EINE** `system`-Message. Ergebnisse/Kontext gehen als `user`-Message rein, nie als 2. system.
 - Aufruf-Parameter: `max_tokens: 160`, `temperature: 0.7`, **30 s** AbortController-Timeout.
@@ -152,7 +152,7 @@ Peter „sieht" über die mineflayer-Welt-API und packt alles in einen `[Wahrneh
 > const ang = Math.atan2(right, fwd);                // 0=vorne, ±π=hinten
 > ```
 > Schwellen: `≤ π/4` vorne, `≥ 3π/4` hinten, sonst rechts/links; `dy>3` oben, `dy<-3` unten.
-> **Muss von Justin im Spiel gegengeprüft werden** (er testet immer live, [[justin-testet-live-selbst]]).
+> **Muss von Justin im Spiel gegengeprüft werden** (er testet immer live, [[../justin-testet-live-selbst.md|Justin testet live selbst]]).
 
 ---
 
@@ -353,12 +353,12 @@ wird Peter ein Agent, der sich nachts selbst bewaffnet, Ziele zerlegt und dazule
 
 1. **Determinismus für Ausführung, LLM für Absicht.** Nie das Modell zum Executor machen.
 2. **Ehrliche Wahrnehmung, kein Halluzinieren.** Peter redet nur über Dinge aus `[Wahrnehmung]` —
-   das war schon beim alten Ben die Wurzel-Krankheit ([[ben-vision-build-stand]]).
+   das war schon beim alten Ben die Wurzel-Krankheit (Ben-Vision-Build-Stand (Itin-TechSolutions-Repo)).
 3. **Jede Aufgabe muss abbrechbar sein** (Generation-Token) und **sich selbst beenden**
    (Ziel / kein Fund / Fehler-Limit) — kein Task läuft ewig.
 4. **Survival hat Vorrang.** Ein Reflex-Tick, der Spieler-Ziele überstimmt, wenn Leben auf dem Spiel steht.
 5. **Robust gegen Crash & Reboot.** Lieber sauber neu verbinden als hängen bleiben.
-6. **Live testen.** Justin verifiziert im Spiel, ich spawne **keine** Test-Bots ([[justin-testet-live-selbst]]).
+6. **Live testen.** Justin verifiziert im Spiel, ich spawne **keine** Test-Bots ([[../justin-testet-live-selbst.md|Justin testet live selbst]]).
 
 ---
 
@@ -455,6 +455,6 @@ um „was gut/schlecht läuft" objektiv zu sehen. Auswerten z. B.:
 | Backup | `/mnt/justnas/MinecraftAI/` |
 | Kern-Projektnotiz | [[MinecraftAI]] |
 
-**Verwandt:** [[MinecraftAI]] · [[Rechner GB10]] · [[Qwen3.6 Reasoning-Toggle]] ·
-[[botv2-minecraft]] · [[ben-vision-build-stand]] · [[justin-testet-live-selbst]] ·
-[[Zwei Claude-Sessions gx10 Kollision]]
+**Verwandt:** [[MinecraftAI]] · [[../rechner-gb10.md|Rechner GB10]] · Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo) ·
+Bot-V2 (alte Minecraft-KI-Iteration, Itin-TechSolutions-Repo) · Ben-Vision-Build-Stand (Itin-TechSolutions-Repo) · [[../justin-testet-live-selbst.md|Justin testet live selbst]] ·
+Zwei Claude-Sessions gx10-Kollision (Itin-TechSolutions-Repo)

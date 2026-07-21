@@ -31,11 +31,7 @@ Nexus_KI_v1/
 - **Code vom Content getrennt** — Python-Parsers in _quarantine/code/
 - **Secrets niemals im Vault** — APIKeys in _quarantine/secrets/ (nie kopieren!)
 
-## Migration
+## Historie
 
-Diese Version wurde aus `/mnt/justnas/Test/Original` migriert am 2026-07-02.
-Alle Reports und Mappings: siehe `_meta/`.
-
----
-
-*Original bleibt unverändert in /mnt/justnas/Test/Original/*
+Dieser Vault wurde am 2026-07-02 aus `/mnt/justnas/Test/Original` in eine neue, KI-optimierte Struktur migriert.
+Alle Migrations-Reports und Mappings: siehe `_meta/`.

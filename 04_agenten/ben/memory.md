@@ -1,22 +1,85 @@
 ---
-title: Ben memory — Gedächtnis
+title: Ben — Gedächtnis
 name: ben-memory
+type: reference
 status: aktiv
-updated: 2026-06-25
+updated: 2026-07-21
+description: "Bens Langzeitgedächtnis. Kanonischer Ort. Kein Zeichenlimit, git-versioniert."
+aliases: [ben-memory, ben-gedächtnis]
+tags: [agent/ben, memory]
+related: ["[[ben]]", "[[06_systeme/qwen36-modellvarianten-gx10]]"]
 ---
 
-## Ben-Gedächtnis (2026-06-25)
+# Ben — Gedächtnis
 
-|- 2026-06-24 — Justin's Firmen: Itin TechSolutions (Einzelunternehmen, Diepflingen BL, UID CHE-359.787.114, gegründet 01.04.2026). Preise: Privat CHF 80/h, KMU CHF 100/h. Finanzziele 2026: CHF 8'000–12'000.
-|- 2026-06-24 — Justin hat ~10 'Just*-Apps': JustLauncher (Dashboard, Port 8000), JustFinanceBusiness (Buchhaltung, Port 8010), JustFinancePrivate (private Finanzen, Port 8020), JustTodo (Todos, Port 8030), JustReise (Reise-Guide, Port 8060), JustBetter (KI-Coach, aktuell reines Konzept ohne Live-Port), JustWebsite (Netlify), JustSavegame (Windows, Port 8765), JustUpdate (Windows-Wartung), ProjectNorm (Standardisierung). JustinV2 läuft aktuell auf Port 8050.
-|- 2026-06-24 — Mehrere andere KI-Projekte: AI Fight Club (~95 Ollama-Modelle auf GamingPC), AIEyes (Augen+Hände für KI), ClaudeSync (Claude-Code-Config-Sync), Jarvis (Sprach-Assistent), Sherlock Holmes (Recherche-Agent), SwissAISolutions (Plug-&-Play KI-Box für KMU).
-|- 2026-06-24 — Gerätelandschaft (alle Tailscale): GX10 (AI, 100.75.47.118), Mac mini M4 (Server/Hermes, 100.89.217.4), GamingPC Windows/RTX 3090 (100.94.200.83), NAS Synology DS923+ (100.122.172.62, 1.4 TB LLM-Modelle), MacBook Air M4 (100.119.74.63), Raspberry Pi 5 (100.119.30.59), S24 (100.99.130.6), Sarahs Geräte (S21, GamingPC).
-|- 2026-06-24 — ItinTech-Kunde: Auto Clean Nord Deiab (aktiver Kunde, Netlify-Website). TITIS SOHN und Fabio Reti = archiviert.
-|- 2026-06-24 — Versicherungen: AXA-ARAG Rechtsschutz (Police 14.601.824), Zürich Berufshaftpflicht (Antrag eingereicht, ausstehend).
-|- 2026-06-24 — Roboter: PiCrawler "Manfred die Spinne" auf Raspberry Pi, 12 Servos, ein Bein defekt, Kamera offen.
-|- 2026-06-24 — Kollaborationen: Jairo (GitHub-Repo), Jorlly (Notion-Teamspace, Elektroschema-AI, NDA).
-|- 2026-06-24 — Sarah = Justins Partnerin (S21, GamingPC).
-|- 2026-06-24 — Sicherheitsvorfall KW 26: Jorlly (User 'maintenance') hatte heimlich sudo-NOPASSWD + docker-Gruppe auf GX10 angelegt, SSH für Justin gesperrt (PasswordAuth aus, nur Key). Justin hat das entschärft (alles reversibel gemacht, Jorlly noch immer privilegiert bis Justin weiterbefiehlt).
-|- 2026-06-24 — Projekt-Norm: README.md an der Wurzel = Single Source, daraus werden Deck (PowerPoint) und AGENTS.md generiert via `projectfusion.py`.
-|- 2026-06-25 — Agenten-Regeln: Zählen/Rechnen via Code, nie im Kopf (Robert-Fehler). Getestete Skill-Vorlagen nutzen, nicht selbst basteln. Runner sauber killen (keine Doppel-Läufe). ollama serve kann abstürzen (verwaiste Prozesse fressen VRAM).
-|- 2026-06-25 — NAS: /mnt/justnas/ITSchulung/ (34 GB, IHK-Kurse, Web Dev, CyberSecurity, Linux, etc. — noch nicht im Nexus).
+**Das ist Bens kanonisches Langzeitgedächtnis.** Kein 8000-Zeichen-Limit,
+git-versioniert, Justin behält die Kontrolle.
+
+`~/.hermes/memories/MEMORY.md` bleibt nur ein Zeiger hierher — dort steht
+absichtlich fast nichts, weil jeder Eintrag dort in **jedem** Turn Kontext kostet.
+
+---
+
+## Wie ich arbeiten soll
+
+- **Nach Feedback sofort das Verhalten ändern**, nicht erst zurückfragen
+  „was soll ich konkret machen?". Die nächste Ausführung zählt, nicht die Nachfrage.
+- **Direkt antworten**, keine Preambeln, kein „Ich habe geprüft und Folgendes
+  gefunden". Erst das Ergebnis, dann 1–3 Gründe.
+- **Menschlich schreiben**, nicht in KI-Mustern.
+- **Emoji variieren** — nicht immer dasselbe. 🫡 war zum Standard geworden und nervt.
+- **„Ich weiss es nicht" ist eine vollständige Antwort.** Nie plausibel raten.
+- **Widersprechen, wenn Justin faktisch falsch liegt** — höflich, ohne Rückzieher.
+- **Vorher melden, nicht nachher.** Besserer Weg? Sagen, bevor ich ausführe.
+
+## Fehler, die ich nicht wiederholen soll
+
+- **Nicht reflexhaft annehmen, mir fehle Wissen.** Erst prüfen: falschen Default
+  gewählt? Kontext falsch gelesen? Kleine Aufgabe unnötig aufgeblasen? Vorhandenen
+  Skill nicht genutzt?
+- **Bei Repo-Namen zuerst lokal suchen.** Sagt Justin „pull nexus", prüfe ich erst,
+  ob es hier liegt. Nicht vorschnell nach GX10/JustPC/SSH greifen.
+- **Nicht rechnen im Kopf** — zählen und rechnen über Code.
+
+## Justins Geräte (Tailscale)
+
+| Gerät | Tailscale | Notiz |
+|---|---|---|
+| **gx10** (dieser Rechner) | — | NVIDIA GB10 / DGX Spark, 121 GiB Unified Memory, LLM-Host |
+| **justpc** (GamingPC) | 100.94.200.83 | vormals `justmain`, User `jitin`. Komplett neu aufgesetzt, keine Repos mehr. |
+| **NAS** (Synology DS923+) | 100.122.172.62 | via CIFS unter `/mnt/justnas` |
+
+**JustPC offen:** Tailscale installieren, Name `justmain` → `justpc`, SSH aktivieren,
+dann Repos clonen (Itin-TechSolutions, Cirqit, JorllyJustinTransfer, PrivateBackup,
+rack-viewer, agentic-ai-server). Justin will Repos **auf dem gx10** pullen, nicht auf dem JustPC.
+
+## Mein Hirn (Stand 2026-07-21, gemessen)
+
+- **Modell:** `nvidia/Qwen3.6-35B-A3B-NVFP4` auf vLLM, Port 8000, Container `vllm-qwen36`
+- **77,8 tok/s**, TTFT 0,09 s, 21,9 GiB Gewichte
+- **Gemessen gegen die Alternativen:** FP8 51,1 tok/s, BF16 30,4 — bei *identischer*
+  Qualität in allen 11 Prüfungen. **NVFP4 ist optimal, nichts umstellen.**
+- Nichts Besseres passt in 121 GiB. Qwen3.5-122B ist 3,5× grösser und *nicht* besser.
+  Nächstes echtes Upgrade: **Qwen 3.7**, angekündigt, noch nicht ausgeliefert.
+- **`enable_thinking: false` ist Pflicht** — sonst leerer `content` und Timeout.
+
+Details: [[06_systeme/qwen36-modellvarianten-gx10]]
+
+## Wichtige Pfade
+
+| Was | Wo |
+|---|---|
+| Nexus-Vault | `/home/justin/Dokumente/GitHub/nexus/` — **`Documents` ist nur ein Symlink darauf** |
+| Mein Gedächtnis | diese Datei |
+| Meine Konfiguration | `~/.hermes/config.yaml` |
+| Mein Charakter | `~/.hermes/SOUL.md` |
+| API-Zugänge | `~/.hermes/secrets/` |
+| Startscript Hirn | `~/.hermes/scripts/vllm-qwen36-run.sh` |
+
+## Grundsätze
+
+- **Detailwissen gehört in den Vault, nicht ins Memory-Tool.** Justin behält so die
+  Kontrolle und es gibt kein Limit.
+- **Keine Secrets** in Antworten, Logs oder Memory.
+- **Ein Gedächtnis, nicht drei.** Am 21.07. wurden zwei parallele Systeme aufgelöst.
+  Wenn ich je einen zweiten Speicherort anlege, ist das ein Fehler.
