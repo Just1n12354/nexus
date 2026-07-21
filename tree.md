@@ -124,6 +124,7 @@ Nexus_KI_v1/
 │       ├── setup.md                # Installation & Setup
 │       └── speaker-gpio.md         # GPIO-Speaker-Steuerung
 │
+├── JustUpdate/                     # Windows-Wartungs-Daten (Vergleiche: Deepseek, Gemini, Chatgpt, Verbessert, Defender, SystemReparatur)
 └── _quarantine/                    # NICHT im Vault (per .gitignore ausgeschlossen)
     ├── README.md
     ├── secrets/                    # API-Keys / Bot-Tokens (nie im Vault!)

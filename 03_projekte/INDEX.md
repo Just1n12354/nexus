@@ -29,7 +29,7 @@ Das ist die nexus-Sicht auf Justins Projekt-Portfolio — ein Kurzfile pro aktiv
 | [[just-todo|JustTodo]] | aktiv | 0.002 | 8030 | 66 | Datei-basierte Todo-App, auch von Bots genutzt |
 | [[just-update|JustUpdate]] | aktiv | 0.002 | — (Desktop) | 72 | Windows-Wartungs-Tool + Self-Update-Pipeline für Kunden |
 | [[just-website|JustWebsite]] | aktiv | 0.002 | — (Netlify) | 67 | Statische Firmen-Website Itin TechSolutions |
-| [[project-norm|ProjectNorm]] | aktiv | 0.000 | — | — | Projekt-Standard: README = Single Source, erzeugt Deck + AGENTS.md |
+|| [[project-fusion|ProjectFusion]] | aktiv | 5.0 | — | — | Projektstandard: Topologie V5, README = Single Source, Deck/AGENTS.md-Generierung, Agent-Kollaboration |
 | [[sherlock-holmes|SherlockHolmes]] | prototyp | 0.004 | — | — | Recherche-Agent: Idee → GitHub/Reddit nach wiederverwendbaren Repos |
 | [[swissaisolutions]] | aktiv | 0.001 | — | — | Verkaufsprodukt aus Solomon: Plug-&-Play KI-Box für KMU (MRR) |
 
@@ -50,7 +50,7 @@ Das ist die nexus-Sicht auf Justins Projekt-Portfolio — ein Kurzfile pro aktiv
 
 ## Konventionen / Standard
 
-- Alle Projekte folgen **[[project-norm|ProjectNorm]]**: README an der Wurzel ist die Single Source; Deck (PowerPoint) + AGENTS.md werden daraus generiert.
+|- Alle Projekte folgen **[[project-fusion|ProjectFusion]]**: README an der Wurzel ist die Single Source; Deck (PowerPoint) + AGENTS.md werden daraus generiert.
 - Versionsstand pro Projekt: `VERSIONS.md` im Quell-Repo. Port-Belegung: `10_Apps/PORTS.md` (verbindliches Schema: 8000er in 10er-Schritten, Mac mini, Tailscale `100.89.217.4`).
 
 ## Verweise
