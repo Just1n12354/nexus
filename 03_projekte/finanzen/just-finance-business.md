@@ -30,4 +30,4 @@ Selbst gebaute Buchhaltungs-App für Itin TechSolutions (Einzelunternehmen Diepf
 
 ## Verweise
 - Quelle: 10_Apps/JustFinanceBusiness/
-- Firma: [[itintech-firma]]. Verwandt: [[just-finance-private|JustFinancePrivate]] (strikt getrennt), [[just-launcher|JustLauncher]]
+- Firma: [[08_arbeit/itintech-firma.md]]. Verwandt: [[just-finance-private.md|JustFinancePrivate]] (strikt getrennt), [[../tools/just-launcher.md|JustLauncher]]

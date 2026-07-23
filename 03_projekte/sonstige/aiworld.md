@@ -59,5 +59,5 @@ AIWorld (Flask-Server)
 - Persona-Guard: Smalltalk/Pings fixt, Bot-Verhalten konsistent
 - Routing via Steckbrief-Typisch (Wer ist für welche Domäne zuständig?)
 
-→ [[aiworld]] (Hauptseite, Steckbriefe, Typisch, 4.0, 4.2, 4.3, 4.1, 4.1)
+→ [[aiworld.md]] (Hauptseite, Steckbriefe, Typisch, 4.0, 4.2, 4.3, 4.1, 4.1)
 →  (Logging-Routing, Typisch für Bot-Konfigurationen, 4.0, 4.2, 4.3, 4.1, 4.1)

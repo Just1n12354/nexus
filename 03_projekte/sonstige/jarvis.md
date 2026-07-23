@@ -29,4 +29,4 @@ Lokaler, privater Sprach-/Aktions-Assistent auf Justins eigener Hardware: Sprach
 
 ## Verweise
 - Quelle: 10_Apps/Jarvis/
-- Verwandt: [[aieyes]] (computer-use), AIWorld/Luna (Jarvis = deren Sprach-Frontend), [[just-todo|JustTodo]], [[just-finance-private|JustFinancePrivate]]
+- Verwandt: [[aieyes.md]] (computer-use), AIWorld/Luna (Jarvis = deren Sprach-Frontend), [[tools/just-todo.md|JustTodo]], [[finanzen/just-finance-private.md|JustFinancePrivate]]

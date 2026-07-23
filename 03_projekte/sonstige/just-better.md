@@ -25,4 +25,4 @@ Persönlicher KI-Coach für Körper, Geist und Leben: ein System, das Gesundheit
 
 ## Verweise
 - Quelle: 10_Apps/JustBetter/
-- Verwandt: [[project-norm|ProjectNorm]], [[just-launcher|JustLauncher]]
+- Verwandt: [[project-fusion.md|ProjectFusion]], [[tools/just-launcher.md|JustLauncher]]

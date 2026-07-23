@@ -29,4 +29,4 @@ Werkzeugkasten, der einer KI (Claude) Augen und Hände auf einem Rechner gibt: A
 
 ## Verweise
 - Quelle: 10_Apps/AIEyes/
-- Verwandt: [[jarvis]] (computer-use/Tool-Layer-Thema), `vnc_grab.ps1`/ClaudeEyes
+- Verwandt: [[jarvis.md]] (computer-use/Tool-Layer-Thema), `vnc_grab.ps1`/ClaudeEyes

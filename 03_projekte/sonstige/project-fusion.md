@@ -81,8 +81,8 @@ Ziel: jedes Projekt sieht gleich aus — Mensch ODER KI versteht es sofort. Änd
 ## Verweise
 
 - Quelle: `10_Apps/ProjectNorm/` (Itin-TechSolutions Repo)
-- Standard für ALLE Projekte; vgl. VERSIONS.md. Verwandt: [[claudesync]]
-- Portfolio-Übersicht: [[INDEX]]
+- Standard für ALLE Projekte; vgl. VERSIONS.md. Verwandt: [[claudesync.md]]
+- Portfolio-Übersicht: [[../INDEX.md]]
 - Projektstruktur im Vault: [[tree]]
 
-→ [[lessons-learned]] (Versionierungs-Lehren)
+→ [[../../07_referenz/lessons-learned.md]] (Versionierungs-Lehren)

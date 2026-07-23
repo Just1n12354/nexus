@@ -7,7 +7,7 @@ updated: 2026-07-21
 description: "Bens Langzeitgedächtnis. Kanonischer Ort. Kein Zeichenlimit, git-versioniert."
 aliases: [ben-memory, ben-gedächtnis]
 tags: [agent/ben, memory]
-related: ["[[ben]]", "[[06_systeme/qwen36-modellvarianten-gx10]]"]
+related: ["[[memory.md]]", "[[06_systeme/qwen36-modellvarianten-gx10]]"]
 ---
 
 # Ben — Gedächtnis

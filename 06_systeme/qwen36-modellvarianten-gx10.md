@@ -6,7 +6,7 @@ updated: 2026-07-21
 description: "Welche Qwen3.6-35B-A3B-Varianten (BF16, FP8, NVFP4) lokal auf gx10 liegen, in welchen Ordnern, mit welcher Revision und Grösse — Grundlage für den geplanten A/B-Vergleich."
 aliases: [qwen36-varianten, qwen3.6-modelle, modell-downloads-gx10]
 tags: [infra/hardware, llm-local, vllm, gx10, modelle]
-related: ["[[hardware]]", "[[02_hermes-infrastruktur]]"]
+related: ["[[06_systeme/hardware.md]]", "[[06_systeme/02_hermes-infrastruktur.md]]"]
 ---
 
 # Qwen3.6-35B-A3B — Modellvarianten auf gx10

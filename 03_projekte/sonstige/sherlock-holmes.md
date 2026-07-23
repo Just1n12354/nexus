@@ -26,4 +26,4 @@ Recherche-Agent: Justin stellt eine Idee formlos vor, Sherlock durchsucht GitHub
 
 ## Verweise
 - Quelle: 10_Apps/Sherlock Holmes/
-- Dockt evtl. vor „neues Konzept bauen" an: [[project-norm|ProjectNorm]]
+- Dockt evtl. vor „neues Konzept bauen" an: [[project-fusion.md|ProjectFusion]]

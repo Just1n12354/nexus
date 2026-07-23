@@ -28,4 +28,4 @@ Single Source of Truth für Justins Claude-Code-Konfiguration über ALLE Geräte
 
 ## Verweise
 - Quelle: 10_Apps/ClaudeSync/
-- Hängt an nexus `MASTER.md` (Routing-Zeiger statt Volltext-Dump). Verwandt: [[project-norm|ProjectNorm]]
+- Hängt an nexus `MASTER.md` (Routing-Zeiger statt Volltext-Dump). Verwandt: [[project-fusion.md|ProjectFusion]]

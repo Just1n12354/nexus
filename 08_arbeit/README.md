@@ -17,4 +17,4 @@ Alle Arbeits-relevanten Themen: Itin TechSolutions (eigene Firma), Acino/Arcera 
 - [[08_arbeit/itintech-kollaborationen.md|Kollaborationen]] — Partner & Zusammenarbeit
 - [[08_arbeit/itintech-versicherungen.md|Versicherungen]] — Helvetia, Zurich, AXA etc.
 - [[08_arbeit/acino-job.md|Acino/Arcera]] — Arbeitgeber-Job, Wartung, SIP, ELEKTRO
-- [[03_projekte/projectnorm.md|ProjectNorm]] — Projekt-Standard (README = Single Source)
+- [[../03_projekte/sonstige/project-fusion.md|ProjectFusion]] — Projekt-Standard (README = Single Source)

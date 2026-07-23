@@ -28,4 +28,4 @@ Reise-Field-Guide als Flask-PWA. Geteilter Guide (Justin & Sarah): Flüge, Hotel
 
 ## Verweise
 - Quelle: 10_Apps/JustReise/
-- Verwandt: [[just-launcher|JustLauncher]] (Ursprung)
+- Verwandt: [[../tools/just-launcher.md|JustLauncher]] (Ursprung)

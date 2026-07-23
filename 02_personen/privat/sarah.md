@@ -40,4 +40,4 @@ tags: [person/privat, partnerin]
 
 ## Verweise
 
-[[02_personen/privat/justin.md|Justin]] · [[justreise|Reiseprojekte]] · [[06_systeme/hardware.md|Hardware]]
+[[02_personen/privat/justin.md|Justin]] · [[../03_projekte/reise/just-reise.md|Reiseprojekte]] · [[06_systeme/hardware.md|Hardware]]

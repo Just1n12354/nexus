@@ -39,6 +39,6 @@ tags: [infra, justreise, launchd, flask]
 
 ## Verweise
 
-- [[03_projekte/justreise.md|JustReise]]
+- [[just-reise.md|JustReise]]
 - [[06_systeme/tailscale-netzwerk.md|Tailscale-Netzwerk]]
 - [[07_referenz/service-ports.md|Service-Ports]]

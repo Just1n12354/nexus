@@ -21,5 +21,5 @@ tags: [referenz, index]
 
 ## Verweise
 
-- [[master|Master-Index]]
-- [[itintech-firma|Itin TechSolutions]]
+- [[../master.md|Master-Index]]
+- [[../08_arbeit/itintech-firma.md|Itin TechSolutions]]

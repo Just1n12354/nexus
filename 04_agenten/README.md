@@ -12,20 +12,19 @@ description: Domänen-MOC für KI-Agenten: Ben (Hermes/GX10), Luna (eigener Agen
 
 ## Agenten
 
-- [[04_agenten/Ben/|Ben]] — Hermes-Agent auf GX10 (ASUS Ascent/GB10)
-  - [[04_agenten/Ben/memory.md|Ben memory]] — Langzeitgedächtnis
-  - [[04_agenten/Ben/ben.md|Ben agent]] — Rolle und Wissen
-  - [[04_agenten/Ben/arbeitslog.md|Arbeitslog]] — Protokoll
-- [[04_agenten/Luna/|Luna]] — Eigener Agent mit SOUL
-  - [[04_agenten/Luna/SOUL.md|SOUL]] — Persönlichkeit
-  - [[04_agenten/Luna/config.yaml|config.yaml]] — Hermes-Konfiguration
+- [[ben/memory.md|Ben]] — Hermes-Agent auf GX10 (ASUS Ascent/GB10)
+  - [[04_agenten/ben/memory.md|Ben memory]] — Langzeitgedächtnis
+  - [[04_agenten/ben/memory.md|Ben agent]] — Rolle und Wissen (→memory.md)
+- [[luna/readme.md|Luna]] — Eigener Agent mit SOUL
+  - [[04_agenten/luna/SOUL.md|SOUL]] — Persönlichkeit
+  - [[04_agenten/Luna/config.yaml|config.yaml]] — Hermes-Konfiguration (→Luna/ unter home/justin/.hermes/)
   - [[04_agenten/Luna/TOPOLOGY.md|Topologie]] — Weltmodell
 
 ## API-Keys
 
-- [[04_agenten/APIKeys/README.md|API-Keys]] — Brave, Telegram, Telegram-Ben (bewusst im privaten Repo committed)
+- [[APIKeys/readme.md|API-Keys]] — Brave, Telegram, Telegram-Ben (bewusst im privaten Repo committed)
 
 ## Verweise
 
-- [[biografie|Justin]] — Rollenmodell: Claude Code = Koordinator, Ben = ausführend, Luna = Assistenz
+- [[../02_personen/privat/biografie.md|Justin]] — Rollenmodell: Claude Code = Koordinator, Ben = ausführend, Luna = Assistenz
 - [[06_systeme/hardware.md|Hardware]] — GX10 als Ben-Host

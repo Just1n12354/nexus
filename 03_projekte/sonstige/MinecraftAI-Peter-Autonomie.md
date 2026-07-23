@@ -23,7 +23,7 @@ gerät: gx10 (NVIDIA GB10 / DGX Spark)
 > dazu ein **LLM-freier Autopilot** (spielt selbstständig die Tech-Leiter hoch) und eine
 > **Telemetrie** (`telemetry.jsonl`) fürs Daten-Sammeln. Details → Abschnitt „Update 2026-07-10".
 >
-> Kern-Notiz: [[MinecraftAI]] · Gerät: [[../rechner-gb10.md|Rechner GB10]] · LLM: Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo)
+> Kern-Notiz: [[MinecraftAI.md]] · Gerät: [[../../06_systeme/hardware.md|Rechner GB10]] · LLM: Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo)
 
 ---
 
@@ -152,7 +152,7 @@ Peter „sieht" über die mineflayer-Welt-API und packt alles in einen `[Wahrneh
 > const ang = Math.atan2(right, fwd);                // 0=vorne, ±π=hinten
 > ```
 > Schwellen: `≤ π/4` vorne, `≥ 3π/4` hinten, sonst rechts/links; `dy>3` oben, `dy<-3` unten.
-> **Muss von Justin im Spiel gegengeprüft werden** (er testet immer live, [[../justin-testet-live-selbst.md|Justin testet live selbst]]).
+> **Muss von Justin im Spiel gegengeprüft werden** (er testet immer live, [[../../02_personen/privat/justin.md|Justin testet live selbst]]).
 
 ---
 
@@ -358,7 +358,7 @@ wird Peter ein Agent, der sich nachts selbst bewaffnet, Ziele zerlegt und dazule
    (Ziel / kein Fund / Fehler-Limit) — kein Task läuft ewig.
 4. **Survival hat Vorrang.** Ein Reflex-Tick, der Spieler-Ziele überstimmt, wenn Leben auf dem Spiel steht.
 5. **Robust gegen Crash & Reboot.** Lieber sauber neu verbinden als hängen bleiben.
-6. **Live testen.** Justin verifiziert im Spiel, ich spawne **keine** Test-Bots ([[../justin-testet-live-selbst.md|Justin testet live selbst]]).
+6. **Live testen.** Justin verifiziert im Spiel, ich spawne **keine** Test-Bots ([[../../02_personen/privat/justin.md|Justin testet live selbst]]).
 
 ---
 
@@ -453,8 +453,8 @@ um „was gut/schlecht läuft" objektiv zu sehen. Auswerten z. B.:
 | Server | `~/minecraft-server/` (Start `./start.sh`) |
 | Dienst-Unit | `~/.config/systemd/user/mc-peter.service` |
 | Backup | `/mnt/justnas/MinecraftAI/` |
-| Kern-Projektnotiz | [[MinecraftAI]] |
+| Kern-Projektnotiz | [[MinecraftAI.md]] |
 
-**Verwandt:** [[MinecraftAI]] · [[../rechner-gb10.md|Rechner GB10]] · Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo) ·
-Bot-V2 (alte Minecraft-KI-Iteration, Itin-TechSolutions-Repo) · Ben-Vision-Build-Stand (Itin-TechSolutions-Repo) · [[../justin-testet-live-selbst.md|Justin testet live selbst]] ·
+**Verwandt:** [[MinecraftAI.md]] · [[../../06_systeme/hardware.md|Rechner GB10]] · Qwen3.6-Modellvarianten (Itin-TechSolutions-Repo) ·
+Bot-V2 (alte Minecraft-KI-Iteration, Itin-TechSolutions-Repo) · Ben-Vision-Build-Stand (Itin-TechSolutions-Repo) · [[../../02_personen/privat/justin.md|Justin testet live selbst]] ·
 Zwei Claude-Sessions gx10-Kollision (Itin-TechSolutions-Repo)

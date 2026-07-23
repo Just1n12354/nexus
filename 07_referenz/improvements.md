@@ -76,7 +76,7 @@ tags: [improvements, improvements, todo]
 ### IMP009: service-ports.md als Single Source etablieren
 - **Status:** Neu erstellt (25.06.2026)
 - **Beschreibung:** Alle Service-Ports zentralisieren.
-- **Massnahme:** Verweise auf Ports in anderen Dateien auf `[[service-ports]]` umleiten.
+- **Massnahme:** Verweise auf Ports in anderen Dateien auf `[[service-ports.md]]` umleiten.
 - **Quelle:** KW_26
 
 ### IMP010: Picrawler Pin 11 Workaround

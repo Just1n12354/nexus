@@ -26,4 +26,4 @@ Plug-&-Play private KI-Box für Schweizer KMU: eigenes „ChatGPT", Daten bleibe
 
 ## Verweise
 - Quelle: 10_Apps/SwissAISolutions/ (Detail: Doku/Produktkonzept.md)
-- Basis-Hardware/Knoten: Projekt Solomon / GX10 (bleibt getrennt vom verkauften Produkt). Verwandt: [[project-norm|ProjectNorm]]
+- Basis-Hardware/Knoten: Projekt Solomon / GX10 (bleibt getrennt vom verkauften Produkt). Verwandt: [[project-fusion.md|ProjectFusion]]

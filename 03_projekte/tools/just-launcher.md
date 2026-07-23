@@ -28,4 +28,4 @@ Zentrales Dashboard für die selbst gehosteten Just-Dienste (JustFinanceBusiness
 
 ## Verweise
 - Quelle: 10_Apps/JustLauncher/
-- Bündelt: [[just-finance-business|JustFinanceBusiness]], [[just-finance-private|JustFinancePrivate]], [[just-todo|JustTodo]], [[just-reise|JustReise]], [[just-better|JustBetter]]
+- Bündelt: [[../finanzen/just-finance-business.md|JustFinanceBusiness]], [[../finanzen/just-finance-private.md|JustFinancePrivate]], [[just-todo.md|JustTodo]], [[../reise/just-reise.md|JustReise]], [[../sonstige/just-better.md|JustBetter]]

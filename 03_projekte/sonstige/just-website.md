@@ -27,4 +27,4 @@ Statische Firmen-Website von Itin TechSolutions (HTML/CSS/JS). Öffentlicher Web
 
 ## Verweise
 - Quelle: 10_Apps/JustWebsite/
-- Firma: [[itintech-firma]] (Hosting Netlify, Kontaktformular-Eigenheiten)
+- Firma: [[08_arbeit/itintech-firma.md]] (Hosting Netlify, Kontaktformular-Eigenheiten)

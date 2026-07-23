@@ -377,6 +377,23 @@ Insgesamt dokumentieren die Bilder ein weitgehend freigeschaltetes und sehr gut 
 
 ---
 
+## Vorgehensweise — Änderungen sicher durchführen
+
+**Regel:** Vor jeder Änderung zuerst die Analyse, dann die Aktion.
+
+1. **Vollständigen Fahrzeugscan** mit OBDeleven durchführen
+2. **Fehlercodes sichern** (nicht löschen, erst notieren)
+3. **Wichtige Steuergeräte dokumentieren** (insbesondere 5F = Infotainment, 19 = CAN Gateway)
+4. **Systemdumps und FEC-/SWaP-Daten** mit der MIB Toolbox sichern
+5. **Vor jeder Änderung Backup erstellen**
+6. **Änderungen einzeln durchführen** — nie mehrere auf einmal
+7. **Jede Änderung dokumentieren** (Was, Warum, Ergebnis)
+8. **Erst nach vollständiger Analyse** Codierungen oder Freischaltungen beginnen
+
+> **Wichtig:** Router, SIM-Karte oder Hotspot können keine VW-Funktionen freischalten. Sie liefern nur Internet und Netzwerk für Diagnosegeräte und externe Tools.
+
+---
+
 ## Langfristige Vision
 
 Dieses Repository soll nicht nur eine Sammlung einzelner Notizen sein, sondern eine vollständige technische Dokumentation des VW Polo. Das Projekt soll über längere Zeit wachsen und u. a. folgende Themen umfassen:

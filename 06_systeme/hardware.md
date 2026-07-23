@@ -7,7 +7,7 @@ updated: 2026-06-22
 description: "Hardware-Inventar: Geräte, Hostnames, Tailscale-IPs, OS, Rollen, Detail-Specs, Rack-Planung, Mac mini Hermes/Codex, NAS, PCs, Smartphones und Spezial-Setups."
 aliases: [hardware, geräte, devices, devices-specs, hardware-inventar]
 tags: [infra/hardware, infra/network, tailscale, specs, llm-local, ai-agents]
-related: ["[[services-mac-mini]]", "", "", "", "", ""]
+related: ["06_systeme/02_hermes-infrastruktur.md", "", "", "", "", ""]
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Hardware

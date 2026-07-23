@@ -30,4 +30,4 @@ Persönliche Todo-App von Justin, auch von Bots (Felix, Claude Code) genutzt. Sc
 
 ## Verweise
 - Quelle: 10_Apps/JustTodo/
-- Genutzt von: [[jarvis]] (Tool-API), Bots. Verwandt: [[just-launcher|JustLauncher]]
+- Genutzt von: [[jarvis.md]] (Tool-API), Bots. Verwandt: [[just-launcher.md|JustLauncher]]

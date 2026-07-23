@@ -30,4 +30,4 @@ Savegame-Backup-Manager für Windows mit GitHub-Sync. Sichert Spiel-Savegames pe
 
 ## Verweise
 - Quelle: 10_Apps/JustSavegame/
-- Verwandt: Just-Reihe, [[just-launcher|JustLauncher]]
+- Verwandt: Just-Reihe, [[just-launcher.md|JustLauncher]]

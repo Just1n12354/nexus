@@ -39,6 +39,6 @@ tags: [arbeit/acino, arbeitsgeber]
 
 ## Verweise
 
-- [[biografie]] — Justin: Beruflicher Kontext
-- [[itintech-firma]] — Itin TechSolutions (Parallel-Projekt)
-- [[arbeitsweise]] — Kommunikationsstil, Support-Stil
+- [[biografie.md]] — Justin: Beruflicher Kontext
+- [[08_arbeit/itintech-firma.md]] — Itin TechSolutions (Parallel-Projekt)
+- [[arbeitsweise.md]] — Kommunikationsstil, Support-Stil

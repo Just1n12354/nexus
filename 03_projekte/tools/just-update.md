@@ -29,4 +29,4 @@ Windows-Wartungs-Tool „System Maintenance Pro" (PowerShell-GUI) inkl. Release-
 
 ## Verweise
 - Quelle: 10_Apps/JustUpdate/
-- Firma/Kunden: [[itintech-firma]], [[itintech-kunden]]
+- Firma/Kunden: [[08_arbeit/itintech-firma.md]], [[08_arbeit/itintech-kunden.md]]

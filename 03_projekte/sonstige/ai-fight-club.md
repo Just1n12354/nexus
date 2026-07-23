@@ -28,4 +28,4 @@ Liga-Arena für lokale LLMs. ~95 Ollama-Modelle treten auf demselben Rechner (JU
 
 ## Verweise
 - Quelle: 10_Apps/AI Fight Club/
-- Verwandt: [[project-norm|ProjectNorm]]; früher Stack `opencode → smol_proxy → Ollama` (zerstörte Tool-Calls → Runner direkt)
+- Verwandt: [[project-fusion.md|ProjectFusion]]; früher Stack `opencode → smol_proxy → Ollama` (zerstörte Tool-Calls → Runner direkt)

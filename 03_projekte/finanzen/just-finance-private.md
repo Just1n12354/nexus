@@ -30,4 +30,4 @@ Private Finanz-App von Justin: Konten-Snapshots, Buchungen, große Ausgaben, Lot
 
 ## Verweise
 - Quelle: 10_Apps/JustFinancePrivate/
-- Verwandt: [[just-finance-business|JustFinanceBusiness]] (strikt getrennt), [[just-launcher|JustLauncher]]. Vgl. Memory: „Alles in private Repos pushen"
+- Verwandt: [[just-finance-business.md|JustFinanceBusiness]] (strikt getrennt), [[../tools/just-launcher.md|JustLauncher]]. Vgl. Memory: „Alles in private Repos pushen"

@@ -27,10 +27,10 @@ tags: [person/justin, profil, index]
 
 | Thema | Link |
 |-------|------|
-| Bio | [[biografie]] |
-| Arbeitsstil | [[arbeitsweise]] |
+| Bio | [[biografie.md]] |
+| Arbeitsstil | [[arbeitsweise.md]] |
 | Firma | [[08_arbeit/itintech-firma|Itin TechSolutions]] |
 | Acino | [[08_arbeit/acino-job|Acino-Job]] |
 | Projekte | [[03_projekte/INDEX|20_Projekte & Konzepte]] |
-| Finanzen | [[03_projekte/justfinanceprivate|JustFinancePrivate]] |
+| Finanzen | [[03_projekte/finanzen/just-finance-private.md|JustFinancePrivate]] |
 | Hardware | [[06_systeme/hardware|Hardware]] |

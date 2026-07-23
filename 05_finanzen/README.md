@@ -12,6 +12,6 @@ description: Domänen-MOC für Finanzen im Nexus Vault.
 
 ## Finanzen
 
-- [[40_Finanzen/README.md|Finanzen — Übersicht]] — Finanzprinzipien, Budgets, Investments, Quick-Jumps
+- [[../05_finanzen/README.md|Finanzen — Übersicht]] — Finanzprinzipien, Budgets, Investments, Quick-Jumps
 - [[03_projekte/finanzen/just-finance-private.md|JustFinancePrivate]] — App für private Finanzen (Port 8020)
 - [[03_projekte/finanzen/just-finance-business.md|JustFinanceBusiness]] — Buchhaltung Itin TechSolutions (Port 8010)
